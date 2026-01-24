@@ -1,0 +1,17 @@
+material jungle_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture goblin_jung_sham2.png
+			}
+		}
+	}
+}

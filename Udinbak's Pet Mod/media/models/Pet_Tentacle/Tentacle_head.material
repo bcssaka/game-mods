@@ -1,0 +1,29 @@
+material blaaaaahhead
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture Boss_Tentacle_Body_WIP.png
+			}
+		}
+		pass
+		{
+			separate_scene_blend src_alpha one zero zero
+			ambient 0 0 0
+			diffuse 0 0 0
+			specular 0 0 0 0
+			texture_unit
+			{
+				texture Boss_Tentacle_Body_WIP_spec.png
+				colour_op_ex modulate src_texture src_specular
+			}
+		}
+	}
+}

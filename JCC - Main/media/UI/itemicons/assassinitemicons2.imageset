@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "assassinitemicons2" Imagefile="media/ui/itemicons/assassinitemicons2.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="assassin_body_07" XPos="0" YPos="0" Width="64" Height="96" />
+	<Image Name="assassin_body_06" XPos="64" YPos="0" Width="64" Height="96" />
+	<Image Name="assassin_body_05" XPos="128" YPos="0" Width="64" Height="96" />
+	<Image Name="assassin_body_04" XPos="192" YPos="0" Width="64" Height="96" />
+	<Image Name="assassin_body_03" XPos="256" YPos="0" Width="64" Height="96" />
+	<Image Name="assassin_body_02" XPos="320" YPos="0" Width="64" Height="96" />
+
+	<Image Name="assassin_spiked_shoulder" XPos="128" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_spiked_helm" XPos="192" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_spiked_gloves" XPos="256" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_spiked_boots" XPos="320" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_spiked_body" XPos="384" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_09" XPos="448" YPos="288" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_08" XPos="0" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_07" XPos="64" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_06" XPos="128" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_05" XPos="192" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_04" XPos="256" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_03" XPos="320" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_shoulders_02" XPos="384" YPos="384" Width="64" Height="96" />
+	<Image Name="assassin_hvyleather_shoulder" XPos="448" YPos="384" Width="64" Height="96" />
+</Imageset>

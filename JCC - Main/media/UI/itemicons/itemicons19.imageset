@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons19" Imagefile="media/ui/itemicons/itemicons19.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >	
+	<Image Name="skill_WarBringer" XPos="0" YPos="0" Width="64" Height="64" />	
+	<Image Name="skill_WarBringer_gray" XPos="64" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_Dreadnought" XPos="448" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_Entropy" XPos="64" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_Entropy_gray" XPos="0" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_FireOrb" XPos="320" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_Shadows" XPos="448" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_PlaneSwitch" XPos="320" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_CerberusBreath" XPos="64" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_Pyroclasm" XPos="192" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_AlastorGift" XPos="64" YPos="448" Width="64" Height="64" />
+	
+</Imageset>

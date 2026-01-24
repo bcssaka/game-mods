@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons20" Imagefile="media/ui/itemicons/itemicons20.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="skill_MalthusAdepth" XPos="0" YPos="0" Width="64" Height="64" />
+</Imageset>

@@ -1,0 +1,39 @@
+material Material_#789/dwarven_embermatic_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture dwarven_embermatic01.png
+			}
+			texture_unit
+			{
+				texture dwarven_embermatic01_I.PNG
+				colour_op add
+			}
+		}
+	}
+}
+material Material_#789/orig_dwarven_embermatic02_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture dwarven_embermatic02.png
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+material undead_dwarf_corrupt/Body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .2 .2 .2
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture undead_dwarf_corrupt_body.png
+			}
+			texture_unit
+			{
+				colour_op add
+				texture undead_dwarf_corrupt_illum.dds
+			}
+		}
+	}
+}
+material undead_dwarf_corrupt/Shoulders
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .2 .2 .2
+			texture_unit
+			{
+				texture undead_dwarf_corrupt_shoulder.png
+			}
+		}
+	}
+}

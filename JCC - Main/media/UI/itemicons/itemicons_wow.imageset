@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons_wow" Imagefile="media/ui/itemicons/itemicons_wow.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="skill_earthquake_gray" XPos="0" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_earthquake" XPos="64" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_molten_shield_gray" XPos="128" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_molten_shield" XPos="192" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_stormstrike_gray" XPos="256" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_stormstrike" XPos="320" YPos="0" Width="64" Height="64" />
+
+	<Image Name="skill_watershield_gray" XPos="384" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_watershield" XPos="448" YPos="0" Width="64" Height="64" />
+	<Image Name="skill_fireelemental_gray" XPos="0" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_fireelemental" XPos="64" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_lavaburst_gray" XPos="128" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_lavaburst" XPos="192" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_bloodlust_gray" XPos="256" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_bloodlust" XPos="320" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_chainlightning_gray" XPos="384" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_chainlightning" XPos="448" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_resistantspirit_gray" XPos="0" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_resistantspirit" XPos="64" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_searingtotem_gray" XPos="128" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_searingtotem" XPos="192" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_earthshield_gray" XPos="256" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_earthshield" XPos="320" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_ancestralknowledge_gray" XPos="384" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_ancestralknowledge" XPos="448" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_feralspirit_gray" XPos="0" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_feralspirit" XPos="64" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_thunderstorm_gray" XPos="128" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_thunderstorm" XPos="192" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_lightningshield_gray" XPos="256" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_lightningshield" XPos="320" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_healingwave_gray" XPos="384" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_healingwave" XPos="448" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_elementaltotem_gray" XPos="0" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_elementaltotem" XPos="64" YPos="256" Width="64" Height="64" />
+</Imageset>

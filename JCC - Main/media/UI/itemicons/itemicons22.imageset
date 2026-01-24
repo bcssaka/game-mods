@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons22" Imagefile="media/ui/itemicons/itemicons22.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="skill_Detonate" XPos="64" YPos="64" Width="64" Height="64" />
+	<Image Name="skill_Singularity" XPos="320" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_Enrage" XPos="448" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_Occultism" XPos="320" YPos="320" Width="64" Height="64" />
+	<Image Name="skill_LifeGrip" XPos="448" YPos="320" Width="64" Height="64" />
+	<Image Name="skill_ManaPool_gray" XPos="192" YPos="448" Width="64" Height="64" />
+	<Image Name="skill_ManaPool" XPos="256" YPos="448" Width="64" Height="64" />
+	
+</Imageset>

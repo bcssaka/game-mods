@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "shards1" Imagefile="media/ui/itemicons/shards1.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="ember_Viridian" XPos="256" YPos="0" Width="64" Height="96" />	
+	<Image Name="ember_Nebiros" XPos="384" YPos="0" Width="64" Height="96" />
+	<Image Name="ember_Incubus" XPos="128" YPos="96" Width="64" Height="96" />
+	<Image Name="ChaosKey_gray" XPos="320" YPos="288" Width="64" Height="96" />
+</Imageset>

@@ -1,0 +1,29 @@
+material phasebeastspectral
+{
+technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive .2 .2 .2
+			scene_blend add
+			depth_write off
+			texture_unit
+			{
+				texture phasebeast.png
+
+			}
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_Address_mode clamp
+				env_map cubic_normal
+				cubic_texture falloffcube.dds combinedUVW
+				colour_op modulate
+			}
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+material zombie/zombie_01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive .3 .3 .3
+			scene_blend alpha_blend
+			alpha_rejection greater 254
+			texture_unit
+			{
+				texture zombie_01.png
+			}
+		}
+	}
+}

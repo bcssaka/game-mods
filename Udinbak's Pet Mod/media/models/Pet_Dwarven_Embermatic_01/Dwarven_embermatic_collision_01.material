@@ -1,0 +1,30 @@
+material multi_collision/collision
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0
+			diffuse 1 0 0
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture collision.tga
+			}
+		}
+	}
+}
+material multi_collision/nocollide
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+		}
+	}
+}

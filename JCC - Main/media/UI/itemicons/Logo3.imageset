@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Logo3" Imagefile="media/ui/itemicons/Logo3.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="sorceressicon" XPos="0" YPos="0" Width="128" Height="128" />
+    <Image Name="sorceressiconlit" XPos="0" YPos="128" Width="128" Height="128" />
+    <Image Name="sorceressiconselected" XPos="0" YPos="256" Width="128" Height="128" />
+    <Image Name="icequeenicon" XPos="128" YPos="0" Width="128" Height="128" />
+    <Image Name="icequeeniconlit" XPos="128" YPos="128" Width="128" Height="128" />
+    <Image Name="icequeeniconselected" XPos="128" YPos="256" Width="128" Height="128" />
+</Imageset>

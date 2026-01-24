@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "necro" Imagefile="media/ui/itemicons/necro.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="zombieswarm_gray.jpg" XPos="0" YPos="0" Width="64" Height="64" />
+	<Image Name="zombieswarm.jpg" XPos="64" YPos="0" Width="64" Height="64" />
+	<Image Name="vamprictouch_gray.jpg" XPos="128" YPos="0" Width="64" Height="64" />
+	<Image Name="vamprictouch.jpg" XPos="192" YPos="0" Width="64" Height="64" />
+	<Image Name="undeadmaster_ gray.jpg" XPos="256" YPos="0" Width="64" Height="64" />
+	<Image Name="undeadmaster.jpg" XPos="320" YPos="0" Width="64" Height="64" />
+	<Image Name="tilldeath_gray.jpg" XPos="384" YPos="0" Width="64" Height="64" />
+	<Image Name="tilldeath.jpg" XPos="448" YPos="0" Width="64" Height="64" />
+	<Image Name="strengthofthenight_gray.jpg" XPos="0" YPos="64" Width="64" Height="64" />
+	<Image Name="strengthofthenight.jpg" XPos="64" YPos="64" Width="64" Height="64" />
+	<Image Name="stenchofdeath.jpg" XPos="128" YPos="64" Width="64" Height="64" />
+	<Image Name="stenchofdeath_gray.jpg" XPos="192" YPos="64" Width="64" Height="64" />
+	<Image Name="skeletonwarrior_gray.jpg" XPos="256" YPos="64" Width="64" Height="64" />
+	<Image Name="skeletonwarrior.jpg" XPos="320" YPos="64" Width="64" Height="64" />
+	<Image Name="skeletonknight_gray.jpg" XPos="384" YPos="64" Width="64" Height="64" />
+	<Image Name="skeletonknight.jpg" XPos="448" YPos="64" Width="64" Height="64" />
+	<Image Name="skeletonarcher_gray.jpg" XPos="0" YPos="128" Width="64" Height="64" />
+	<Image Name="skeletonarcher.jpg" XPos="64" YPos="128" Width="64" Height="64" />
+	<Image Name="rot_gray.jpg" XPos="128" YPos="128" Width="64" Height="64" />
+	<Image Name="rot.jpg" XPos="192" YPos="128" Width="64" Height="64" />
+	<Image Name="rigamortis.jpg" XPos="256" YPos="128" Width="64" Height="64" />
+	<Image Name="promiseofpower_gray.jpg" XPos="320" YPos="128" Width="64" Height="64" />
+	<Image Name="promiseofpower.jpg" XPos="384" YPos="128" Width="64" Height="64" />
+	<Image Name="poisontouchgray.jpg" XPos="448" YPos="128" Width="64" Height="64" />
+	<Image Name="poisontouch.jpg" XPos="0" YPos="192" Width="64" Height="64" />
+	<Image Name="necroarmor_gray.jpg" XPos="64" YPos="192" Width="64" Height="64" />
+	<Image Name="necroarmor.jpg" XPos="128" YPos="192" Width="64" Height="64" />
+	<Image Name="lifedrain.jpg" XPos="192" YPos="192" Width="64" Height="64" />
+	<Image Name="lifedrain gray.jpg" XPos="256" YPos="192" Width="64" Height="64" />
+	<Image Name="lich_gray.jpg" XPos="320" YPos="192" Width="64" Height="64" />
+	<Image Name="lich.jpg" XPos="384" YPos="192" Width="64" Height="64" />
+	<Image Name="frailty_gray.jpg" XPos="448" YPos="192" Width="64" Height="64" />
+	<Image Name="frailty.jpg" XPos="0" YPos="256" Width="64" Height="64" />
+	<Image Name="feastonflesh_gray.jpg" XPos="64" YPos="256" Width="64" Height="64" />
+	<Image Name="feastonflesh.jpg" XPos="128" YPos="256" Width="64" Height="64" />
+	<Image Name="fear_gray.jpg" XPos="192" YPos="256" Width="64" Height="64" />
+	<Image Name="fear.jpg" XPos="256" YPos="256" Width="64" Height="64" />
+	<Image Name="faceofdeath_gray.jpg" XPos="320" YPos="256" Width="64" Height="64" />
+	<Image Name="faceofdeath.jpg" XPos="384" YPos="256" Width="64" Height="64" />
+	<Image Name="eviscerate_gray.jpg" XPos="448" YPos="256" Width="64" Height="64" />
+	<Image Name="eviscerate.jpg" XPos="0" YPos="320" Width="64" Height="64" />
+	<Image Name="drinkerofsouls_gray.jpg" XPos="64" YPos="320" Width="64" Height="64" />
+	<Image Name="drinkerofsouls.jpg" XPos="128" YPos="320" Width="64" Height="64" />
+	<Image Name="disease.jpg" XPos="192" YPos="320" Width="64" Height="64" />
+	<Image Name="disease gray.jpg" XPos="256" YPos="320" Width="64" Height="64" />
+	<Image Name="deathwish_gray.jpg" XPos="320" YPos="320" Width="64" Height="64" />
+	<Image Name="deathwish.jpg" XPos="384" YPos="320" Width="64" Height="64" />
+	<Image Name="deathsembrace_gray.jpg" XPos="448" YPos="320" Width="64" Height="64" />
+	<Image Name="deathsembrace.jpg" XPos="0" YPos="384" Width="64" Height="64" />
+	<Image Name="deathlance_gray.jpg" XPos="64" YPos="384" Width="64" Height="64" />
+	<Image Name="deathlance.jpg" XPos="128" YPos="384" Width="64" Height="64" />
+	<Image Name="corspeburstpoison.jpg" XPos="192" YPos="384" Width="64" Height="64" />
+	<Image Name="corpseburst_gray.jpg" XPos="256" YPos="384" Width="64" Height="64" />
+	<Image Name="corpseburstfire.jpg" XPos="320" YPos="384" Width="64" Height="64" />
+	<Image Name="construct_gray.jpg" XPos="384" YPos="384" Width="64" Height="64" />
+	<Image Name="construct.jpg" XPos="448" YPos="384" Width="64" Height="64" />
+	<Image Name="chilltouch_gray.jpg" XPos="0" YPos="448" Width="64" Height="64" />
+	<Image Name="chilltouch.jpg" XPos="64" YPos="448" Width="64" Height="64" />
+	<Image Name="chantter.jpg" XPos="128" YPos="448" Width="64" Height="64" />
+	<Image Name="chantter gray.jpg" XPos="192" YPos="448" Width="64" Height="64" />
+	<Image Name="accdecay_gray.jpg" XPos="256" YPos="448" Width="64" Height="64" />
+	<Image Name="accdecay.jpg" XPos="320" YPos="448" Width="64" Height="64" />
+</Imageset>

@@ -1,0 +1,22 @@
+material burrower
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture burrower.dds
+			}
+			texture_unit
+			{
+				texture burrower_Illum.dds
+				colour_op add
+			}
+		}
+	}
+}

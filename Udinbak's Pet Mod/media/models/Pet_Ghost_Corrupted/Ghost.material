@@ -1,0 +1,63 @@
+material ghost/spectral
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			scene_blend add
+			depth_write off
+			texture_unit
+			{
+				texture ghost_corrupt.png
+			}
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_Address_mode clamp
+				env_map cubic_normal
+				cubic_texture falloffcube.dds combinedUVW
+				colour_op modulate
+			}			
+		}
+	}
+}
+material ghost/solid
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0.00 0.00 0.00 00
+			emissive 0.4 0.4 0.4
+			scene_blend alpha_blend
+			alpha_rejection greater 200
+			texture_unit
+			{
+				texture ghostchains.dds
+			}
+		}
+	}
+}
+material ghost/helm
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture ghost_corrupt_helm.png
+			}
+		}
+	}
+}

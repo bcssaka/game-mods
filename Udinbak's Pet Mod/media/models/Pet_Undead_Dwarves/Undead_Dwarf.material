@@ -1,0 +1,24 @@
+material dwarves_undead_01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture dwarves_undead_01.dds
+			}
+			texture_unit
+			{
+				texture dwarves_undead_01_illum.dds
+				colour_op add
+			}
+		}
+	}
+}

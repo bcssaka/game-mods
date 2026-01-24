@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons18" Imagefile="media/ui/itemicons/itemicons18.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="skill_PhobosDeimos" XPos="256" YPos="64" Width="64" Height="64" />	
+	<Image Name="skill_PhobosDeimos_gray" XPos="320" YPos="64" Width="64" Height="64" />	
+	<Image Name="skill_Duress" XPos="192" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_Sacrifice" XPos="192" YPos="192" Width="64" Height="64" />	
+	<Image Name="skill_Overload" XPos="320" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_AsmodeusHerald" XPos="448" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_Nightmares" XPos="64" YPos="448" Width="64" Height="64" />
+	
+</Imageset>

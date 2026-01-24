@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+
+	<Window Type="DefaultWindow" Name="Root" >
+		<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+		<Window Type="GuiLook/StaticImage" Name="TopBarB">
+			<Property Name="UnifiedPosition" Value="{{.5,0},{0,0}}" />
+			<Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+
+			<Window Type="GuiLook/StaticImage" Name="TopBar">
+				<Property Name="UnifiedPosition" Value="{{-.5,0},{0,0}}" />
+				<Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+				<Property Name="Image" Value="set:Logo image:topbar" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+				<Property Name="ClippedByParent" Value="False" />
+			</Window>
+ 		</Window>
+
+	<Window Type="GuiLook/StaticImage" Name="TopBarLeft">
+		<Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+		<Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+	<Window Type="GuiLook/StaticImage" Name="TopBarRight">
+		<Property Name="UnifiedPosition" Value="{{1,-225},{0,0}}" />
+		<Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+	<Window Type="GuiLook/StaticImage" Name="BottomBarB">
+		<Property Name="UnifiedPosition" Value="{{.5,0},{1,-89}}" />
+		<Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+
+		<Window Type="GuiLook/StaticImage" Name="BottomBar">
+			<Property Name="UnifiedPosition" Value="{{-.5,0},{1,-89}}" />
+			<Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+			<Property Name="Image" Value="set:Logo image:bottombar" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="ClippedByParent" Value="False" />
+		</Window>
+	</Window>
+
+	<Window Type="GuiLook/StaticImage" Name="BottomBarLeft">
+		<Property Name="UnifiedPosition" Value="{{0,0},{1,-89}}" />
+		<Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+	<Window Type="GuiLook/StaticImage" Name="BottomBarRight">
+		<Property Name="UnifiedPosition" Value="{{1,-225},{1,-89}}" />
+		<Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+
+	<Window Type="GuiLook/StaticTextOutline" Name="CharacterClassHeader" >
+		<Property Name="Text" Value="1"/>
+		<Property Name="UnifiedPosition" Value="{{.5,-300},{0,110}}" />
+		<Property Name="UnifiedSize" Value="{{0,600},{0,32}}" />
+		<Property Name="Font" Value="SerifBig" /> 
+		<Property Name="Text" Value="Select Hero Class" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="AlwaysOnTop" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned" />
+	</Window>
+
+	<Window Type="GuiLook/StaticTextOutline" Name="CharacterClass" >
+		<Property Name="Text" Value="1"/>
+		<Property Name="UnifiedPosition" Value="{{.5,-300},{1,-180}}" />
+		<Property Name="UnifiedSize" Value="{{0,600},{0,60}}" />
+		<Property Name="Text" Value="Destroyer" />
+		<Property Name="Font" Value="SerifHuge" /> 
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="AlwaysOnTop" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned" />
+	</Window>
+
+	<Window Type="GuiLook/StaticText" Name="CharacterClassDescription" >
+		<Property Name="Text" Value="1"/>
+		<Property Name="UnifiedPosition" Value="{{.5,-150},{1,-145}}" />
+		<Property Name="UnifiedSize" Value="{{0,300},{0,64}}" />
+		<Property Name="Font" Value="SerifSmall" /> 
+		<Property Name="Text" Value="The Destroyer excels at melee combat and channels the power of his ancestors" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="AlwaysOnTop" Value="True" />
+		<Property Name="HorzTextFormatting" Value="WordWrapCentreAligned" />
+	</Window>
+
+
+	<Window Type="GuiLook/StandardButton" Name="Back">
+		<Property Name="UnifiedPosition" Value="{{.5,-400},{1,-64}}" />
+		<Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+		<Property Name="Text" Value="Back"/>
+		<Property Name="onClick" Value="guiBack"/>
+	</Window>
+
+	<Window Type="GuiLook/StandardButton" Name="CreatePlayer">
+		<Property Name="UnifiedPosition" Value="{{.5,154},{1,-64}}" />
+		<Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+		<Property Name="Text" Value="OK"/>
+		<Property Name="onClick" Value="guiNewGame"/>
+	</Window>
+
+
+	<Window Type="GuiLook/ItemText" Name="PortraitBox" >
+		<Property Name="UnifiedPosition" Value="{{0,30},{.4,-200}}" />
+		<Property Name="UnifiedSize" Value="{{0,150},{0,550}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+		<Window Type="GuiLook/StaticText" Name="Orig" >
+			<Property Name="Text" Value="Original" />
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,2}}" />
+			<Property Name="UnifiedSize" Value="{{0,150},{0,24}}" />
+			<Property Name="HorzTextFormatting" Value="CentreAligned" />
+			<Property Name="Font" Value="SerifBig" /> 
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+
+		<Window Type="GuiLook/StaticText" Name="Class1" >
+			<Property Name="Text" Value="Classes" />
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,24}}" />
+			<Property Name="UnifiedSize" Value="{{0,150},{0,24}}" />
+			<Property Name="HorzTextFormatting" Value="CentreAligned" />
+			<Property Name="Font" Value="SerifBig" /> 
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Destroyer">
+            <Property Name="UnifiedPosition" Value="{{0,7},{0,47}}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:destroyericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:destroyericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:destroyericon" />
+		<Property Name="Tooltip" Value="Select Destroyer" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Vanquisher">
+            <Property Name="UnifiedPosition" Value="{{0,79},{0,47}}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="1" />
+		<Property Name="Tooltip" Value="Select Vanquisher" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Alchemist">
+            <Property Name="UnifiedPosition" Value="{{0,43},{0,116}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="2" />
+		<Property Name="Tooltip" Value="Select Alchemist" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+		<Window Type="GuiLook/StaticText" Name="Cust" >
+			<Property Name="Text" Value="Custom" />
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,187}}" />
+			<Property Name="UnifiedSize" Value="{{0,140},{0,24}}" />
+			<Property Name="HorzTextFormatting" Value="CentreAligned" />
+			<Property Name="Font" Value="SerifBig" /> 
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+
+		<Window Type="GuiLook/StaticText" Name="Class2" >
+			<Property Name="Text" Value="Classes" />
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,209}}" />
+			<Property Name="UnifiedSize" Value="{{0,140},{0,24}}" />
+			<Property Name="HorzTextFormatting" Value="CentreAligned" />
+			<Property Name="Font" Value="SerifBig" /> 
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+
+	<Window Type="GuiLook/ScrollablePane" Name="PortraitBoxScroll" >
+		<Property Name="UnifiedPosition" Value="{{0,0},{0,232}}" />
+		<Property Name="UnifiedSize" Value="{{0,150},{0,305}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorizontalScrollbar" Value="Disabled" />
+
+	<Window Type="GuiLook/RadioButton" Name="Airbender">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,233}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="3" />
+		<Property Name="Tooltip" Value="Select Airbender" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Assassin">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,233}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:assassiniconselected" />
+		<Property Name="HoverImage" Value="set:Logo image:assassiniconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:assassinicon" />
+            <Property Name="ID" Value="4" />
+		<Property Name="Tooltip" Value="Select Assassin" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Barbarian">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,302}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:barbarianiconselected" />
+		<Property Name="HoverImage" Value="set:Logo image:barbarianiconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:barbarianicon" />
+            <Property Name="ID" Value="5" />
+		<Property Name="Tooltip" Value="Select Barbarian" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Demonologist">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,302}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:demoniconselected" />
+		<Property Name="HoverImage" Value="set:Logo image:demoniconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:demonicon" />
+            <Property Name="ID" Value="7" />
+		<Property Name="Tooltip" Value="Select Demonologist" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Enchanter">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,371}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="9" />
+		<Property Name="Tooltip" Value="Select Enchanter" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Executioner">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,371}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="10" />
+		<Property Name="Tooltip" Value="Select Executioner" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="FOmar">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,440}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="11" />
+		<Property Name="Tooltip" Value="Select FOmar" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Fury">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,440}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="12" />
+		<Property Name="Tooltip" Value="Select Fury" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Gunblade">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,509}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="13" />
+		<Property Name="Tooltip" Value="Select Gunblade" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Guardian">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,509}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo2 image:guardianiconselected" />
+		<Property Name="HoverImage" Value="set:Logo2 image:guardianiconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo2 image:guardianicon" />
+            <Property Name="ID" Value="14" />
+		<Property Name="Tooltip" Value="Select Guardian" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="IceQueen">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,578}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo3 image:icequeeniconselected" />
+		<Property Name="HoverImage" Value="set:Logo3 image:icequeeniconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo3 image:icequeenicon" />
+            <Property Name="ID" Value="15" />
+		<Property Name="Tooltip" Value="Select Ice Queen" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Kensai">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,578}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="16" />
+		<Property Name="Tooltip" Value="Select Kensai" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Lady Knight">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,647}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo2 image:ladyknighticonselected" />
+		<Property Name="HoverImage" Value="set:Logo2 image:ladyknighticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo2 image:ladyknighticon" />
+            <Property Name="ID" Value="16" />
+		<Property Name="Tooltip" Value="Select Lady Knight" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Nethermage">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,647}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:nethermageiconselected" />
+		<Property Name="HoverImage" Value="set:Logo image:nethermageiconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:nethermageicon" />
+            <Property Name="ID" Value="18" />
+		<Property Name="Tooltip" Value="Select Nethermage" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Paladin">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,716}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo2 image:paladiniconselected" />
+		<Property Name="HoverImage" Value="set:Logo2 image:paladiniconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo2 image:paladinicon" />
+            <Property Name="ID" Value="6" />
+		<Property Name="Tooltip" Value="Select Paladin" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Shaman">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,716}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo2 image:shamaniconselected" />
+		<Property Name="HoverImage" Value="set:Logo2 image:shamaniconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo2 image:shamanicon" />
+            <Property Name="ID" Value="19" />
+		<Property Name="Tooltip" Value="Select Shaman" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Sorceress">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,785}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo3 image:sorceressiconselected" />
+		<Property Name="HoverImage" Value="set:Logo3 image:sorceressiconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo3 image:sorceressicon" />
+            <Property Name="ID" Value="20" />
+		<Property Name="Tooltip" Value="Select Sorceress" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Spiritdancer">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,785}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="21" />
+		<Property Name="Tooltip" Value="Select Spiritdancer" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Stonebrother">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,854}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo2 image:stonebrothericonselected" />
+		<Property Name="HoverImage" Value="set:Logo2 image:stonebrothericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo2 image:stonebrothericon" />
+            <Property Name="ID" Value="23" />
+		<Property Name="Tooltip" Value="Select Stone Brother" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Valkyrie">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,854}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:vanquishericonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:vanquishericonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:vanquishericon" />
+            <Property Name="ID" Value="24" />
+		<Property Name="Tooltip" Value="Select Valkyrie" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Warlock">
+            <Property Name="UnifiedPosition" Value="{{0,5},{0,923}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:warlockiconselected" />
+		<Property Name="HoverImage" Value="set:Logo image:warlockiconlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:warlockicon" />
+            <Property Name="ID" Value="25" />
+		<Property Name="Tooltip" Value="Select Warlock" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioButton" Name="Warmage">
+            <Property Name="UnifiedPosition" Value="{{0,75},{0,923}" />
+            <Property Name="UnifiedSize" Value="{{0,64},{0,64}}" />
+		<Property Name="SelectedImage" Value="set:Logo image:alchemisticonselected" />
+		<Property Name="HoverImage" Value="set:Logo image:alchemisticonlit" />
+		<Property Name="UnselectedImage" Value="set:Logo image:alchemisticon" />
+            <Property Name="ID" Value="26" />
+		<Property Name="Tooltip" Value="Select Warmage" />
+		<Property Name="onClick" Value="guiSelect1"/>
+   	 </Window>
+
+	</Window>
+
+        </Window>
+
+
+	<Window Type="GuiLook/StaticText" Name="PetName" >
+		<Property Name="Text" Value="Pet Name" />
+		<Property Name="UnifiedPosition" Value="{{1,-180},{.5,295}}" />
+		<Property Name="UnifiedSize" Value="{{0,152},{0,24}}" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+	<Window Type="GuiLook/ItemText" Name="TextBoxPet" >							<Property Name="UnifiedPosition" Value="{{1,-170},{.5,325}}" />
+		<Property Name="UnifiedSize" Value="{{0,152},{0,32}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+	</Window>
+
+	<Window Type="GuiLook/Editbox" Name="EditBoxPet" >
+		<Property Name="Text" Value="" />									<Property Name="MaxTextLength" Value="12" />
+		<Property Name="UnifiedPosition" Value="{{1,-170},{.5,325}}" />
+		<Property Name="UnifiedSize" Value="{{0,152},{0,32}}" />
+	</Window>
+		
+	<Window Type="GuiLook/ItemText" Name="PetBoxOutline" >
+		<Property Name="UnifiedPosition" Value="{{1,-180},{.5,-240}}" />
+		<Property Name="UnifiedSize" Value="{{0,170},{0,504}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		
+		<Window Type="GuiLook/StaticText" Name="PetTitle" >
+				<Property Name="Text" Value="Pet" />
+				<Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,24}}" />
+				<Property Name="HorzTextFormatting" Value="CentreAligned" />
+				<Property Name="Font" Value="SerifBig" /> 
+		</Window>
+		
+		<Window Type="GuiLook/ScrollablePane" Name="PetBox" >
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,26}}" />
+			<Property Name="UnifiedSize" Value="{{0,170},{0,450}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="HorizontalScrollbar" Value="Disabled" />
+			
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Aloe Gel">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,0}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Aloe Gel"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Arctic Tiger">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,30}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Arctic Tiger"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Bengal Tiger">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,60}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Bengal Tiger"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Black Tiger">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,90}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Black Tiger"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Burrower">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,120}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Burrower"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Cat">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,150}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Cat"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Caveflier">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,180}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Caveflier"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Construct">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,210}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Construct"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Corrupt Brink">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,240}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Corrupted Merc"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Disciple">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,270}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Disciple"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Dog">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,300}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Dog"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Dragonspawn">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,330}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Dragonspawn"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Electric Elemental">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,360}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Electric Elemental"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ember Colossus">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,390}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ember Colossus"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ferret">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,420}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ferret"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Fire Elemental">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,450}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Fire Elemental"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Gel">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,480}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Gel"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ghost">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,510}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ghost"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Goblin">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,540}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Goblin"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Goblinhound">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,570}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Goblinhound"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Horse">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,600}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Horse"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ice Elemental">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,630}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ice Elemental"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Imaginary">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,660}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Imaginary"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Krag">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,690}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Krag"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Lich">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,720}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Lich"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Mech Construct">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,750}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Mech Construct"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Mech Crawler">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,780}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Mech Crawler"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Mimic">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,810}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Mimic"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ordrak">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,840}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ordrak"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Phasebeast">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,870}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Phasebeast"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Poison Elemental">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,900}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Poison Elemental"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Pygmy">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,930}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Pygmy"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Ratman">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,960}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Ratman"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Skeleton">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,990}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Skeleton"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Spider">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1020}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Spider"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Troll">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1050}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Troll"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Tuatara">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1080}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Tuatara"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Undead Dwarf">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1110}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Undead Dwarf"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Varkolyn">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1140}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Varkolyn"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Vilebracken">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1170}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Vilebracken"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet White Tiger">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1200}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="White Tiger"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Wisp">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1230}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Wisp"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Zealot">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1260}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Zealot"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+
+			 <Window Type="GuiLook/StandardButton" Name="DFB Pet Zombie">
+			 	<Property Name="UnifiedPosition" Value="{{0,-5},{0,1290}}" />
+				<Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+				<Property Name="Text" Value="Zombie"/>
+				<Property Name="onClick" Value="guiPet1" />
+			</Window>
+		</Window>
+	</Window>
+
+		<Window Type="GuiLook/ItemText" Name="TextBox" >
+			<Property Name="UnifiedPosition" Value="{{.5,-70},{1,-60}}" />
+			<Property Name="UnifiedSize" Value="{{0,140},{0,32}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+
+		<Window Type="GuiLook/Editbox" Name="EditBox" >
+			<Property Name="Text" Value="" />
+			<Property Name="MaxTextLength" Value="12" />
+			<Property Name="UnifiedPosition" Value="{{.5,-70},{1,-60}}" />
+			<Property Name="UnifiedSize" Value="{{0,140},{0,32}}" />
+		</Window>
+
+		<Window Type="GuiLook/StaticText" Name="Name" >
+			<Property Name="Text" Value="Character Name" />
+			<Property Name="UnifiedPosition" Value="{{.5,-70},{1,-88}}" />
+			<Property Name="UnifiedSize" Value="{{0,140},{0,24}}" />
+			<Property Name="HorzTextFormatting" Value="CentreAligned" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+		</Window>
+	</Window>
+</GUILayout>
+

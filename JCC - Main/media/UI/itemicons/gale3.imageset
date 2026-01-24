@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "gale3" Imagefile="media/ui/itemicons/gale3.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	
+	<Image Name="skill_Lilith" XPos="384" YPos="64" Width="64" Height="64" />
+	<Image Name="Skill_Bluearrow" XPos="0" YPos="64" Width="64" Height="64" />
+</Imageset>

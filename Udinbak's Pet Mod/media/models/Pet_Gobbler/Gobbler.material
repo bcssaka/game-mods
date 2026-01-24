@@ -1,0 +1,19 @@
+material gobbler
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.607843 0.607843 0.607843
+			diffuse 0.607843 0.607843 0.607843
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture gobbler.png
+			}
+		}
+	}
+}

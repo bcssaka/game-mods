@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "necro2" Imagefile="media/ui/itemicons/necro2.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="undeadwarrior_gray" XPos="0" YPos="0" Width="64" Height="64" />
+	<Image Name="undeadwarrior" XPos="64" YPos="0" Width="64" Height="64" />
+	<Image Name="undeadarcher_gray" XPos="128" YPos="0" Width="64" Height="64" />
+	<Image Name="undeadarcher" XPos="192" YPos="0" Width="64" Height="64" />
+	<Image Name="infestation_gray" XPos="256" YPos="0" Width="64" Height="64" />
+	<Image Name="infestation" XPos="320" YPos="0" Width="64" Height="64" />
+	<Image Name="handsofdeath_gray" XPos="384" YPos="0" Width="64" Height="64" />
+	<Image Name="handsofdeath" XPos="448" YPos="0" Width="64" Height="64" />
+	<Image Name="graverobber_gray" XPos="0" YPos="64" Width="64" Height="64" />
+	<Image Name="graverobber" XPos="64" YPos="64" Width="64" Height="64" />
+	<Image Name="giftsungiven_gray" XPos="128" YPos="64" Width="64" Height="64" />
+	<Image Name="giftsungiven" XPos="192" YPos="64" Width="64" Height="64" />
+	<Image Name="deathaura_gray" XPos="256" YPos="64" Width="64" Height="64" />
+	<Image Name="deathaura" XPos="320" YPos="64" Width="64" Height="64" />
+	<Image Name="covertocover_gray" XPos="384" YPos="64" Width="64" Height="64" />
+	<Image Name="covertocover" XPos="448" YPos="64" Width="64" Height="64" />
+	<Image Name="bonearmor_gray" XPos="0" YPos="128" Width="64" Height="64" />
+	<Image Name="bonearmor" XPos="64" YPos="128" Width="64" Height="64" />
+</Imageset>

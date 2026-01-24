@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Logo2" Imagefile="media/ui/itemicons/Logo2.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="guardianicon" XPos="0" YPos="0" Width="128" Height="128" />
+    <Image Name="guardianiconlit" XPos="0" YPos="128" Width="128" Height="128" />
+    <Image Name="guardianiconselected" XPos="0" YPos="256" Width="128" Height="128" />
+    <Image Name="paladinicon" XPos="128" YPos="0" Width="128" Height="128" />
+    <Image Name="paladiniconlit" XPos="128" YPos="128" Width="128" Height="128" />
+    <Image Name="paladiniconselected" XPos="128" YPos="256" Width="128" Height="128" />
+    <Image Name="stonebrothericon" XPos="256" YPos="0" Width="128" Height="128" />
+    <Image Name="stonebrothericonlit" XPos="256" YPos="128" Width="128" Height="128" />
+    <Image Name="stonebrothericonselected" XPos="256" YPos="256" Width="128" Height="128" />
+    <Image Name="shamanicon" XPos="384" YPos="0" Width="128" Height="128" />
+    <Image Name="shamaniconlit" XPos="384" YPos="128" Width="128" Height="128" />
+    <Image Name="shamaniconselected" XPos="384" YPos="256" Width="128" Height="128" />
+    <Image Name="ladyknighticon" XPos="0" YPos="384" Width="128" Height="128" />
+    <Image Name="ladyknighticonlit" XPos="128" YPos="384" Width="128" Height="128" />
+    <Image Name="ladyknighticonselected" XPos="256" YPos="384" Width="128" Height="128" />
+</Imageset>

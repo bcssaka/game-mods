@@ -1,0 +1,42 @@
+material Material_#16
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .3 .3 .3
+			scene_blend alpha_blend
+			alpha_rejection greater 254
+			texture_unit
+			{
+				texture varkolyn_verminmaster.png
+			}
+			texture_unit
+			{
+				texture varkolyn_verminmaster_illum.dds
+				colour_op add
+			}
+
+		}
+	}
+}
+material 09_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive .3 .3 .3
+			texture_unit
+			{
+				texture magicwand.png
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "itemicons17" Imagefile="media/ui/itemicons/itemicons17.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="skill_FallenWings_gray" XPos="256" YPos="128" Width="64" Height="64" />	
+	<Image Name="skill_FallenWings" XPos="320" YPos="128" Width="64" Height="64" />
+	<Image Name="skill_BelialHerald" XPos="448" YPos="256" Width="64" Height="64" />
+	<Image Name="skill_nethershard_gray" XPos="0" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_nethershard" XPos="64" YPos="192" Width="64" Height="64" />
+	<Image Name="skill_DemonAshes" XPos="192" YPos="384" Width="64" Height="64" />
+	<Image Name="skill_BloodForge" XPos="192" YPos="448" Width="64" Height="64" />
+	<Image Name="skill_SoulBound_gray" XPos="384" YPos="448" Width="64" Height="64" />
+	<Image Name="skill_SoulBound" XPos="448" YPos="448" Width="64" Height="64" />
+</Imageset>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "cccgale2" Imagefile="media/ui/itemicons/cccgale2.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="convictionicon" XPos="320" YPos="320" Width="64" Height="64" />
+	<Image Name="charismaicon" XPos="384" YPos="320" Width="64" Height="64" />
+	<Image Name="compassionicon" XPos="448" YPos="320" Width="64" Height="64" />
+	
+	<Image Name="holybolt_inactive" XPos="0" YPos="384" Width="64" Height="64" />
+	<Image Name="holybolt_active" XPos="64" YPos="384" Width="64" Height="64" />
+	<Image Name="holygrenade_inactive" XPos="128" YPos="384" Width="64" Height="64" />
+	<Image Name="holygrenade_active" XPos="192" YPos="384" Width="64" Height="64" />
+	<Image Name="holyhand_active" XPos="256" YPos="384" Width="64" Height="64" />
+	<Image Name="holyhand_inactive" XPos="320" YPos="384" Width="64" Height="64" />
+	<Image Name="holyshield_active" XPos="384" YPos="384" Width="64" Height="64" />
+	<Image Name="holyshield_inactive" XPos="448" YPos="384" Width="64" Height="64" />
+
+	<Image Name="kick_active" XPos="0" YPos="448" Width="64" Height="64" />
+	<Image Name="kick_inactive" XPos="64" YPos="448" Width="64" Height="64" />
+	<Image Name="pathofglory_inactive" XPos="128" YPos="448" Width="64" Height="64" />
+	<Image Name="pathofglory_active" XPos="192" YPos="448" Width="64" Height="64" />
+	<Image Name="run_active" XPos="256" YPos="448" Width="64" Height="64" />
+	<Image Name="run_inactive" XPos="320" YPos="448" Width="64" Height="64" />
+	<Image Name="ward2_inactive" XPos="384" YPos="448" Width="64" Height="64" />
+	<Image Name="ward2_active" XPos="448" YPos="448" Width="64" Height="64" />
+
+</Imageset>

@@ -1,0 +1,42 @@
+material elemental/elemental_01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture elemental_01.png
+			}
+			texture_unit
+			{
+				colour_op add
+				texture elemental_01_illum.dds
+			}
+		}
+	}
+}
+material elemental/elemental_02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend one one
+			texture_unit
+			{
+				texture elemental_02.png
+				colour_op modulate
+			}
+		}
+	}
+}
+

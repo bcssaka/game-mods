@@ -1,0 +1,29 @@
+material helmet
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			texture_unit
+			{
+				texture helmet.png
+			}
+		}
+		pass
+		{
+			separate_scene_blend src_alpha one zero zero
+			ambient 0 0 0
+			diffuse 0 0 0
+			specular 0 0 0 0
+			texture_unit
+			{
+				texture helmet_spec.png
+				colour_op_ex modulate src_texture src_specular
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+18:01:30: Creating resource group General
+18:01:30: Creating resource group Internal
+18:01:30: Creating resource group Autodetect
+18:01:30: Registering ResourceManager for type Mesh
+18:01:30: Registering ResourceManager for type Material
+18:01:30: Registering ResourceManager for type Skeleton
+18:01:30: XMLSkeletonSerializer: reading XML data from C:\SVN\Builds\Delvers\media\models\dwarven_embermatic_01\on.SKELETON.xml...
+18:01:30: XMLSkeletonSerializer: Reading Bones name...
+18:01:30: XMLSkeletonSerializer: Reading Hierarchy data...
+18:01:30: XMLSkeletonSerializer: Reading Bones data...
+18:01:30: XMLSkeletonSerializer: Reading Animations data...
+18:01:30: Animation: nom: on et longueur: 0.666667
+18:01:30: XMLSkeletonSerializer: Finished. Running SkeletonSerializer...
+18:01:30: Exporting bones..
+18:01:30: Bones exported.
+18:01:30: Exporting animations, count=1
+18:01:30: Exporting animation: on
+18:01:30: Animation exported.
+18:01:30: Unregistering ResourceManager for type Skeleton
+18:01:30: Unregistering ResourceManager for type Material
+18:01:30: Unregistering ResourceManager for type Mesh

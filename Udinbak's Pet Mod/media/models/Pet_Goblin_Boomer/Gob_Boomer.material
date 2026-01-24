@@ -1,0 +1,19 @@
+material goblin_boomer
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0.3 0.3 0.3
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture goblin_boomer.png
+			}
+		}
+	}
+}

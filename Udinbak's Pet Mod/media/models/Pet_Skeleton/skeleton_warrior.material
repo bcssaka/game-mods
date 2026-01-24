@@ -1,0 +1,36 @@
+material Material_#38/15_-_Defaultaaa
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture skeletonwarrior_diffuse.png
+			}
+		}
+	}
+}
+material Material_#38/helmet
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			texture_unit
+			{
+				texture armor.png
+			}
+		}
+	}
+}

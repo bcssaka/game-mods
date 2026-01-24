@@ -1,0 +1,85 @@
+material warrior/base
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.745098 0.631373 0.529412
+			diffuse 0.745098 0.631373 0.529412
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture body.png
+			}
+		}
+	}
+}
+material warrior/boots
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.745098 0.631373 0.529412
+			diffuse 0.745098 0.631373 0.529412
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture body.png
+			}
+		}
+	}
+}
+material warrior/chest
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.745098 0.631373 0.529412
+			diffuse 0.745098 0.631373 0.529412
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture body.png
+			}
+		}
+	}
+}
+material warrior/gloves
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.745098 0.631373 0.529412
+			diffuse 0.745098 0.631373 0.529412
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture body.png
+			}
+		}
+	}
+}
+material warrior/hair
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.745098 0.631373 0.529412
+			diffuse 0.745098 0.631373 0.529412
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			texture_unit
+			{
+				texture body.png
+			}
+		}
+	}
+}
