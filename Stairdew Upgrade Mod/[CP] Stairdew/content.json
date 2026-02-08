@@ -1,0 +1,85 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/CopperStaircase",
+            "FromFile": "assets/copper_staircase.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/SteelStaircase",
+            "FromFile": "assets/steel_staircase.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/GoldStaircase",
+            "FromFile": "assets/gold_staircase.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/IridiumStaircase",
+            "FromFile": "assets/iridium_staircase.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CopperStaircase": {
+                    "Name": "{{ModId}}_CopperStaircase",
+                    "DisplayName": "Copper Staircase",
+                    "Description": "A staircase that will allow you to descend 10 floors in the mines or Skull Caverns.",
+                    "Price": 0,
+                    "Texture": "Mods/{{ModId}}/CopperStaircase",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "Fragility": 1
+                },
+                "{{ModId}}_SteelStaircase": {
+                    "Name": "{{ModId}}_SteelStaircase",
+                    "DisplayName": "Steel Staircase",
+                    "Description": "A staircase that will allow you to descend 20 floors in the mines or Skull Caverns.",
+                    "Price": 0,
+                    "Texture": "Mods/{{ModId}}/SteelStaircase",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "Fragility": 1
+                },
+                "{{ModId}}_GoldStaircase": {
+                    "Name": "{{ModId}}_GoldStaircase",
+                    "DisplayName": "Gold Staircase",
+                    "Description": "A staircase that will allow you to descend 40 floors in the mines or Skull Caverns.",
+                    "Price": 0,
+                    "Texture": "Mods/{{ModId}}/GoldStaircase",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "Fragility": 1
+                },
+                "{{ModId}}_IridiumStaircase": {
+                    "Name": "{{ModId}}_IridiumStaircase",
+                    "DisplayName": "Iridium Staircase",
+                    "Description": "A staircase that will allow you to descend 99 floors in the mines or Skull Caverns.",
+                    "Price": 0,
+                    "Texture": "Mods/{{ModId}}/IridiumStaircase",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "Fragility": 1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Copper Staircase": "334 20/Field/(BC){{ModId}}_CopperStaircase/true/Mining 4",
+                "Steel Staircase": "335 20/Field/(BC){{ModId}}_SteelStaircase/true/Mining 6",
+                "Gold Staircase": "336 20/Field/(BC){{ModId}}_GoldStaircase/true/Mining 8",
+                "Iridium Staircase": "337 20/Field/(BC){{ModId}}_IridiumStaircase/true/Mining 10"
+            }
+        }
+    ]
+}

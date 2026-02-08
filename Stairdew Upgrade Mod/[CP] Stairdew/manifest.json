@@ -1,0 +1,11 @@
+{
+    "Name": "Stairdew - Staircase Upgrade Mod (Assets)",
+    "Author": "ThatBritishMo",
+    "Version": "1.0.0",
+    "Description": "Stairdrop deeper into the mines with these new advanced crafting recipes!",
+    "UniqueID": "ThatBritishMo.Stairdew.CP",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "Stairdew - Staircase Upgrade Mod (Code)",
+  "Author": "ThatBritishMo",
+  "Version": "1.0.0",
+  "Description": "Logic for Stairdew.",
+  "UniqueID": "ThatBritishMo.Stairdew.Code",
+  "EntryDll": "Stairdew.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "ThatBritishMo.Stairdew.CP",
+      "IsRequired": true
+    }
+  ]
+}
