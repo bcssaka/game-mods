@@ -1,0 +1,327 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Bug",
+                        "6"
+                    ],
+                    "Value": "Moss {{Bug Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Bug": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Grub",
+                        "6"
+                    ],
+                    "Value": "Moss {{Grub Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Grub": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Fly",
+                        "6"
+                    ],
+                    "Value": "Moss {{Fly Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Fly": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Rock Crab",
+                        "6"
+                    ],
+                    "Value": "Moss {{Rock Crab Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Rock Crab": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Duggy",
+                        "6"
+                    ],
+                    "Value": "Moss {{Duggy Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Duggy": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Bat",
+                        "6"
+                    ],
+                    "Value": "Moss {{Bat Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Bat": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Stone Golem",
+                        "6"
+                    ],
+                    "Value": "Moss {{Stone Golem Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Stone Golem": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dust Spirit",
+                        "6"
+                    ],
+                    "Value": "Moss {{Dust Spirit Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Dust Spirit": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Frost Bat",
+                        "6"
+                    ],
+                    "Value": "Moss {{Frost Bat Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Frost Bat": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Ghost",
+                        "6"
+                    ],
+                    "Value": "Moss {{Ghost Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Ghost": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Skeleton",
+                        "6"
+                    ],
+                    "Value": "Moss {{Skeleton Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Skeleton": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lava Bat",
+                        "6"
+                    ],
+                    "Value": "Moss {{Lava Bat Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Lava Bat": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lava Crab",
+                        "6"
+                    ],
+                    "Value": "Moss {{Lava Crab Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Lava Crab": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Metal Head",
+                        "6"
+                    ],
+                    "Value": "Moss {{Metal Head Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Metal Head": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shadow Brute",
+                        "6"
+                    ],
+                    "Value": "Moss {{Shadow Brute Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Shadow Brute": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shadow Shaman",
+                        "6"
+                    ],
+                    "Value": "Moss {{Shadow Shaman Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Shadow Shaman": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Squid Kid",
+                        "6"
+                    ],
+                    "Value": "Moss {{Squid Kid Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Squid Kid": true
+            }
+        }
+    ]
+}

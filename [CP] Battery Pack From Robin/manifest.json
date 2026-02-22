@@ -1,0 +1,13 @@
+{
+  "Name": "Battery Pack From Robin",
+  "Author": "Liverium",
+  "Version": "0.0.1",
+  "Description": "Buy Battery Pack From Robin.",
+  "UniqueID": "Battery_Pack_From_Robin",
+  "UpdateKeys": [
+    "Nexus:28707"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,46 @@
+{
+"Changes":
+	[
+
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+		"Fields": {
+		"CopperOre_YearOne": {
+			"Id": "CopperOre_YearOne",
+			"Price": "{{Copper_Ore_Year_One_Price}}",
+		},		
+		"CopperOre_AfterYearOne": {
+			"Id": "CopperOre_AfterYearOne",
+			"Price": "{{Copper_Ore_Year_Two_Price}}",
+		},		
+		"IronOre_YearOne": {
+			"Id": "IronOre_YearOne",
+			"Price": "{{Iron_Ore_Year_One_Price}}",
+		},		
+		"IronOre_AfterYearOne": {
+			"Id": "IronOre_AfterYearOne",
+			"Price": "{{Iron_Ore_Year_Two_Price}}",
+		},		
+		"GoldOre_YearOne": {
+			"Id": "GoldOre_YearOne",
+			"Price": "{{Gold_Ore_Year_One_Price}}",
+		},		
+		"GoldOre_AfterYearOne": {
+			"Id": "GoldOre_AfterYearOne",
+			"Price": "{{Gold_Ore_Year_Two_Price}}",
+		},		
+		"Coal_YearOne": {
+			"Id": "Coal_YearOne",
+			"Price": "{{Coal_Year_One_Price}}",
+		},		
+		"Coal_AfterYearOne": {
+			"Id": "Coal_AfterYearOne",
+			"Price": "{{Coal_Year_Two_Price}}",
+		},		
+			},
+	},
+	],
+}
+	

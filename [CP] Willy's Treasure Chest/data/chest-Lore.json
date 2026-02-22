@@ -1,0 +1,798 @@
+{
+    "Changes": [
+
+        //SHOP DATA
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //RICE SHOOT
+                    "{{ModId}}_RiceShoot": {
+                        "ItemId": "(O)273",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRiceShoot 0.21, SEASON Spring, DAY_OF_WEEK Sunday"
+                    },
+                    //WILD BAIT
+                    "{{ModId}}_WildBait": {
+                        "ItemId": "(O)774",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestWildBait 0.135"
+                    },
+                    //QI BEAN
+                    "{{ModId}}_QiBean": {
+                        "ItemId": "(O)890",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestQiBean 0.645, PLAYER_SPECIAL_ORDER_ACTIVE Current QiChallenge2"
+                    },
+                    //BAIT AND BOBBER
+                    "{{ModId}}_BaitAndBobber": {
+                        "ItemId": "(O)SkillBook_1",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestBaitAndBobber 0.0018"
+                    },
+                    //MINING MONTHLY
+                    "{{ModId}}_MiningMonthly": {
+                        "ItemId": "(O)SkillBook_3",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestMiningMonthly 0.0018"
+                    },
+                    //COMBAT QUARTERLY
+                    "{{ModId}}_CombatQuarterly": {
+                        "ItemId": "(O)SkillBook_4",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestCombatQuarterly 0.0018"
+                    },
+                    //STARDEW VALLEY ALMANAC
+                    "{{ModId}}_StardewValleyAlamanc": {
+                        "ItemId": "(O)SkillBook_0",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestStardewValleyAlmanac 0.0018"
+                    },
+                    //WOODCUTTER'S WEEKLY
+                    "{{ModId}}_WoodcuttersWeekly": {
+                        "ItemId": "(O)SkillBook_2",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestWoodcuttersWeekly 0.0018"
+                    },
+                    //SONAR BOBBER
+                    "{{ModId}}_SonarBobber": {
+                        "ItemId": "(O)SonarBobber",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSonarBobber 0.06, PLAYER_BASE_FISHING_LEVEL Current 0 5"
+                    },
+                    //WOOD
+                    "{{ModId}}_Wood": {
+                        "ItemId": "(O)388",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestWood 0.09"
+                    },
+                    //STONE
+                    "{{ModId}}_Stone": {
+                        "ItemId": "(O)390",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestStone 0.09"
+                    },
+                    //DELUXE BAIT
+                    "{{ModId}}_DeluxeBait": {
+                        "ItemId": "(O)DeluxeBait",
+                        "AvailableStock": 5,
+                        "Condition": "SYNCED_RANDOM day ChestDeluxeBait 0.45, PLAYER_BASE_FISHING_LEVEL Current 0 3",
+                        "AvoidRepeat": "true"
+                    },
+                    //BAIT
+                    "{{ModId}}_Bait": {
+                        "ItemId": "(O)685",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestBait 0.555, PLAYER_BASE_FISHING_LEVEL Current 0 1"
+                    },
+                    //LOST BOOK
+                    "{{ModId}}_LostBook": {
+                        "ItemId": "(O)102",
+                        "Price": 100,                        
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestLostBook 0.06, !FOUND_ALL_LOST_BOOKS"
+                    },
+                    //SKELETAL TAIL
+                    "{{ModId}}_SkeletalTail": {
+                        "ItemId": "(O)585",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSkeletalTail 0.0465"
+                    },
+                    //NAUTILUS FOSSIL
+                    "{{ModId}}_NautilusFossil": {
+                        "ItemId": "(O)586",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestNautilusFossil 0.0465"
+                    },
+                    //AMPHIBIAN FOSSIL
+                    "{{ModId}}_AmphibianFossil": {
+                        "ItemId": "(O)587",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAmphibianFossil 0.0465"
+                    },
+                    //ANCIENT DOLL
+                    "{{ModId}}_AncientDoll": {
+                        "ItemId": "(O)103",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAncientDoll 0.012"
+                    },
+                    //ELVISH JEWELRY
+                    "{{ModId}}_ElvishJewelry": {
+                        "ItemId": "(O)104",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestElvishJewelry 0.012"
+                    },
+                    //CHEWING STICK
+                    "{{ModId}}_ChewingStick": {
+                        "ItemId": "(O)105",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestChewingStick 0.012"
+                    },
+                    //ORNAMENTAL FAN
+                    "{{ModId}}_OrnamentalFan": {
+                        "ItemId": "(O)106",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestOrnamentalFan 0.012"
+                    },
+                    //DINOSAUR EGG
+                    "{{ModId}}_DinosaurEgg": {
+                        "ItemId": "(O)107",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestDinosaurEgg 0.012"
+                    },
+                    //RARE DISC
+                    "{{ModId}}_RareDisc": {
+                        "ItemId": "(O)108",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRareDisc 0.012"
+                    },
+                    //ANCIENT SWORD
+                    "{{ModId}}_AncientSword": {
+                        "ItemId": "(O)109",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAncientSword 0.012"
+                    },
+                    //RUSTY SPOON
+                    "{{ModId}}_RustySpoon": {
+                        "ItemId": "(O)110",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRustySpoon 0.012"
+                    },
+                    //RUSTY SPUR
+                    "{{ModId}}_RustySpur": {
+                        "ItemId": "(O)111",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRustySpur 0.012"
+                    },
+                    //RUSTY COG
+                    "{{ModId}}_RustyCog": {
+                        "ItemId": "(O)112",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRustyCog 0.012"
+                    },
+                    //CHICKEN STATUE
+                    "{{ModId}}_ChickenStatue": {
+                        "ItemId": "(O)113",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestChickenStatue 0.012"
+                    },
+                    //ANCIENT SEED
+                    "{{ModId}}_AncientSeed": {
+                        "ItemId": "(O)114",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAncientSeed 0.012"
+                    },
+                    //PREHISTORIC TOOL
+                    "{{ModId}}_PrehistoricTool": {
+                        "ItemId": "(O)115",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestPrehistoricTool 0.012"
+                    },
+                    //DRIED STARFISH
+                    "{{ModId}}_DriedStarfish": {
+                        "ItemId": "(O)116",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestDriedStarfish 0.012"
+                    },
+                    //ANCHOR
+                    "{{ModId}}_Anchor": {
+                        "ItemId": "(O)117",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAnchor 0.012"
+                    },
+                    //GLASS SHARDS
+                    "{{ModId}}_GlassShards": {
+                        "ItemId": "(O)118",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGlassShards 0.012"
+                    },
+                    //BONE FLUTE
+                    "{{ModId}}_BoneFlute": {
+                        "ItemId": "(O)119",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestBoneFlute 0.012"
+                    },
+                    //GEODE
+                    "{{ModId}}_Geode": {
+                        "ItemId": "(O)535",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestGeode 0.24"
+                    },
+                    //MIXED SEEDS
+                    "{{ModId}}_MixedSeeds": {
+                        "ItemId": "(O)770",
+                        "Price": 20,                        
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestMixedSeeds 0.18"
+                    },
+                    //NEPTUNE'S GLAIVE
+                    "{{ModId}}_NeptunesGlaive": {
+                        "ItemId": "(W)14",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestNeptunesGlaive 0.009"
+                    },
+                    //BROKEN TRIDENT
+                    "{{ModId}}_BrokenTrident": {
+                        "ItemId": "(W)51",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestBrokenTrident 0.009"
+                    },
+                    //SMALL GLOW RING
+                    "{{ModId}}_SmallGlowRing": {
+                        "ItemId": "(O)516",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSmallGlowRing 0.00435"
+                    },
+                    //GLOW RING
+                    "{{ModId}}_GlowRing": {
+                        "ItemId": "(O)517",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGlowRing 0.0009 @addDailyLuck"
+                    },
+                    //SMALL MAGNET RING
+                    "{{ModId}}_SmallMagnetRing": {
+                        "ItemId": "(O)518",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSmallMagnetRing 0.00435"
+                    },
+                    //MAGNET RING
+                    "{{ModId}}_MagnetRing": {
+                        "ItemId": "(O)519",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestMagnetRing 0.0009 @addDailyLuck"
+                    },
+                    //AMETHYST RING
+                    "{{ModId}}_AmethystRing": {
+                        "ItemId": "(O)529",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAmethystRing 0.00075"
+                    },
+                    //TOPAZ RING
+                    "{{ModId}}_TopazRing": {
+                        "ItemId": "(O)530",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestTopazRing 0.00075"
+                    },
+                    //AQUAMARINE RING
+                    "{{ModId}}_AquamarineRing": {
+                        "ItemId": "(O)531",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestAquamarineRing 0.00075"
+                    },
+                    //JADE RING
+                    "{{ModId}}_JadeRing": {
+                        "ItemId": "(O)532",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestJadeRing 0.00075"
+                    },
+                    //EMERALD RING
+                    "{{ModId}}_EmeraldRing": {
+                        "ItemId": "(O)533",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestEmeraldRing 0.00075"
+                    },
+                    //RUBY RING
+                    "{{ModId}}_RubyRing": {
+                        "ItemId": "(O)534",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRubyRing 0.00075"
+                    },
+                    //TREASURE CHEST
+                    "{{ModId}}_TreasureChest": {
+                        "ItemId": "(O)166",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestTreasureChest 0.0036",
+                        "AvoidRepeat": "true"
+                    },
+                    //PRISMATIC SHARD
+                    "{{ModId}}_PrismaticShard": {
+                        "ItemId": "(O)74",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestPrismaticShard 0.00018"
+                    },
+                    //STRANGE DOLL - YELLOW
+                    "{{ModId}}_StrangeDollYellow": {
+                        "ItemId": "(O)127",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestStrangeDollYellow 0.0018"
+                    },
+                    //STRANGE DOLL - GREEN
+                    "{{ModId}}_StrangeDollGreen": {
+                        "ItemId": "(O)126",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestStrangeDollGreen 0.0018"
+                    },
+                    //IRIDIUM BAND
+                    "{{ModId}}_IridiumBand": {
+                        "ItemId": "(O)527",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestIridiumBand 0.0018"
+                    },
+                    //SNEAKERS
+                    "{{ModId}}_Sneakers": {
+                        "ItemId": "(B)504",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSneakers 0.00018"
+                    },
+                    //RUBBER BOOTS
+                    "{{ModId}}_RubberBoots": {
+                        "ItemId": "(B)505",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRubberBoots 0.00018"
+                    },
+                    //LEATHER BOOTS
+                    "{{ModId}}_LeatherBoots": {
+                        "ItemId": "(B)506",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestLeatherBoots 0.00018"
+                    },
+                    //WORK BOOTS
+                    "{{ModId}}_WorkBoots": {
+                        "ItemId": "(B)507",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestWorkBoots 0.00018"
+                    },
+                    //COMBAT BOOTS
+                    "{{ModId}}_CombatBoots": {
+                        "ItemId": "(B)508",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestCombatBoots 0.00018"
+                    },
+                    //TUNDRA BOOTS
+                    "{{ModId}}_TundraBoots": {
+                        "ItemId": "(B)509",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestTundraBoots 0.00018"
+                    },
+                    //THERMAL BOOTS
+                    "{{ModId}}_ThermalBoots": {
+                        "ItemId": "(B)510",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestThermalBoots 0.00018"
+                    },
+                    //DARK BOOTS
+                    "{{ModId}}_DarkBoots": {
+                        "ItemId": "(B)511",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestDarkBoots 0.00018"
+                    },
+                    //FIREWALKER BOOTS
+                    "{{ModId}}_FirewalkerBoots": {
+                        "ItemId": "(B)512",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestFirewalkerBoots 0.00018"
+                    },
+                    //GENIE SHOES
+                    "{{ModId}}_GenieShoes": {
+                        "ItemId": "(B)513",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGenieShoes 0.00018"
+                    },
+                    //ROE - SPRING
+                    "{{ModId}}_RoeSpring": {
+                        "RandomItemId": [ "FLAVORED_ITEM Roe (O)147", "FLAVORED_ITEM Roe (O)129", "FLAVORED_ITEM Roe (O)131", "FLAVORED_ITEM Roe (O)267", "FLAVORED_ITEM Roe (O)708" ],
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRoeSpring 0.375, SEASON Spring"
+                    },
+                    //ROE - SUMMER
+                    "{{ModId}}_RoeSummer": {
+                        "RandomItemId": [ "FLAVORED_ITEM Roe (O)701", "FLAVORED_ITEM Roe (O)267", "FLAVORED_ITEM Roe (O)708", "FLAVORED_ITEM Roe (O)146", "FLAVORED_ITEM Roe (O)130", "FLAVORED_ITEM Roe (O)149" ],
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRoeSummer 0.375, SEASON Summer"
+                    },
+                    //ROE - FALL
+                    "{{ModId}}_RoeFall": {
+                        "RandomItemId": [ "FLAVORED_ITEM Roe (O)129", "FLAVORED_ITEM Roe (O)131", "FLAVORED_ITEM Roe (O)154", "FLAVORED_ITEM Roe (O)701", "FLAVORED_ITEM Roe (O)705" ],
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRoeFall 0.375, SEASON Fall"
+                    },
+                    //ROE - WINTER
+                    "{{ModId}}_RoeWinter": {
+                        "RandomItemId": [ "FLAVORED_ITEM Roe (O)147", "FLAVORED_ITEM Roe (O)131", "FLAVORED_ITEM Roe (O)154", "FLAVORED_ITEM Roe (O)708", "FLAVORED_ITEM Roe (O)146", "FLAVORED_ITEM Roe (O)705", "FLAVORED_ITEM Roe (O)130" ],
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRoeWinter 0.375, SEASON Winter"
+                    },
+                    //JEWELS OF THE SEA
+                    "{{ModId}}_JewelsOfTheSea": {
+                        "ItemId": "(O)Book_Roe",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestJewelsOfTheSea 0.0315"
+                    },
+                    //GOLDEN TAG
+                    "{{ModId}}_GoldenTag": {
+                        "ItemId": "(O)TroutDerbyTag",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGoldenTag 0.495, SEASON_DAY Summer 20 Summer 21"
+                    }
+                }
+        },
+
+        //SHOP DATA - PANNING STOCK OFF
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //MYSTERY BOX
+                    "{{ModId}}_MysteryBox": {
+                        "ItemId": "(O)MysteryBox",
+                        "Price": 500,
+                        "AvailableStock": 1,
+                        "Condition": "ANY \"SYNCED_RANDOM day ChestMysteryBox 0.1575 @addDailyLuck, PLAYER_STAT Current BillboardQuestsDone 6\" \"SYNCED_RANDOM day ChestMysteryBox 0.1575 @addDailyLuck, DAYS_PLAYED 50\"",
+                        "AvoidRepeat": "true"
+                    },
+                    //COPPER ORE
+                    "{{ModId}}_CopperOre": {
+                        "ItemId": "(O)378",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCopperOre 0.18"
+                    },
+                    //COAL
+                    "{{ModId}}_Coal": {
+                        "ItemId": "(O)382",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCoal 0.4425"
+                    },
+                    //EARTH CRYSTAL
+                    "{{ModId}}_EarthCrystal": {
+                        "ItemId": "(O)86",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEarthCrystal 0.0555"
+                    },
+                    //AMETHYST
+                    "{{ModId}}_Amethyst": {
+                        "ItemId": "(O)66",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAmethyst 0.0645"
+                    },
+                    //TOPAZ
+                    "{{ModId}}_Topaz": {
+                        "ItemId": "(O)68",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestTopaz 0.0645"
+                    },
+                    //DIAMOND
+                    "{{ModId}}_Diamond": {
+                        "ItemId": "(O)72",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestDiamond 0.06",
+                        "AvoidRepeat": "true"
+                    }
+        },
+        "When": {
+            "PanStock": "false"
+        }
+        },
+
+
+        //DISTANCE FROM LAND CONFIG
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //DRESSED SPINNER
+                    "{{ModId}}_DressedSpinner": {
+                        "ItemId": "(O)687",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestDressedSpinner 0.06, PLAYER_BASE_FISHING_LEVEL Current 0 7"
+                    },
+                    //MAGMA GEODE
+                    "{{ModId}}_MagmaGeode": {
+                        "ItemId": "(O)537",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestMagmaGeode 0.075"
+                    },
+                    //FROZEN GEODE
+                    "{{ModId}}_FrozenGeode": {
+                        "ItemId": "(O)536",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFrozenGeode 0.18"
+                    },
+                    //JADE
+                    "{{ModId}}_Jade": {
+                        "ItemId": "(O)70",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestJade 0.0645"
+                    }
+        },
+        "When": {
+            "LoreDistance": "true"
+        }
+        },
+
+        //DISTANCE FROM LAND CONFIG - PANNING STOCK OFF
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //IRIDIUM ORE
+                    "{{ModId}}_IridiumOre": {
+                        "ItemId": "(O)386",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIridiumOre 0.0165"
+                    },
+                    //GOLD ORE
+                    "{{ModId}}_GoldOre": {
+                        "ItemId": "(O)384",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestGoldOre 0.135"
+                    },
+                    //IRON ORE
+                    "{{ModId}}_IronOre": {
+                        "ItemId": "(O)380",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIronOre 0.15"
+                    },
+                    //FIRE QUARTZ
+                    "{{ModId}}_FireQuartz": {
+                        "ItemId": "(O)82",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFireQuartz 0.0555"
+                    },
+                    //RUBY
+                    "{{ModId}}_Ruby": {
+                        "ItemId": "(O)64",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRuby 0.0645"
+                    },
+                    //EMERALD
+                    "{{ModId}}_Emerald": {
+                        "ItemId": "(O)60",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEmerald 0.0645"
+                    },
+                    //FROZEN TEAR
+                    "{{ModId}}_FrozenTear": {
+                        "ItemId": "(O)84",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFrozenTear 0.0555"
+                    },
+                    //AQUAMARINE
+                    "{{ModId}}_Aquamarine": {
+                        "ItemId": "(O)62",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAquamarine 0.0645"
+                    }
+        },
+        "When": {
+            "LoreDistance": "true",
+            "PanStock": "false"
+        }
+        },
+
+        //GOLDEN EGG - WITH PERFECTION REQUIREMENT
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //GOLDEN EGG
+                    "{{ModId}}_GoldenEgg": {
+                        "ItemId": "(O)928",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGoldenEgg 0.0018, PLAYER_HAS_MAIL Current Farm_Eternal"
+                    }
+        },
+        "When": {
+            "GoldEggPerfection": "true"
+        }
+        },
+
+        //GOLDEN EGG - WITHOUT PERFECTION REQUIREMENT
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //GOLDEN EGG
+                    "{{ModId}}_GoldenEgg": {
+                        "ItemId": "(O)928",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestGoldenEgg 0.0018"
+                    }
+        },
+        "When": {
+            "GoldEggPerfection": "false"
+        }
+        }
+
+
+    ]
+}

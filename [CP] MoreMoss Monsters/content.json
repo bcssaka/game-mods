@@ -1,0 +1,577 @@
+{
+    "Format": "2.8.1",
+    "ConfigSchema": {
+        //Slimes
+        "Allow Green Slime": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Green Slimes to drops moss.",
+            "Section": "All Slimes"
+        },
+        "Green Slime Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "All Slimes"
+        },
+        "Allow Frost Jelly": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Frost Jelly (blue) Slimes to drops moss.",
+            "Section": "All Slimes"
+        },
+        "Frost Jelly Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "All Slimes"
+        },
+        "Allow Sludge": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Sludge (red/purple) Slimes to drops moss.",
+            "Section": "All Slimes"
+        },
+        "Sludge Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "All Slimes"
+        },
+        "Allow Big Slime": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Big Slimes to drops moss.",
+            "Section": "All Slimes"
+        },
+        "Big Slime Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "All Slimes"
+        },
+        "Allow Tiger Slime": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Tiger Slimes to drops moss.",
+            "Section": "All Slimes"
+        },
+        "Tiger Slime Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "All Slimes"
+        },
+        //Mines
+        "Allow Bug": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Bugs to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Bug Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Grub": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Grubs to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Grub Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Fly": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Fly to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Fly Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Rock Crab": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Rock Crab to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Rock Crab Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Duggy": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Duggy to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Duggy Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Bat": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Bats to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Bat Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Stone Golem": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Stone Golems to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Stone Golem Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Dust Spirit": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Dust Spirits to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Dust Spirit Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Frost Bat": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Frost Bats to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Frost Bat Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Ghost": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Ghosts to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Ghost Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Skeleton": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Skeletons to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Skeleton Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Lava Bat": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Lava Bats to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Lava Bat Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Lava Crab": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Lava Crabs to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Lava Crab Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Metal Head": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Metal Heads to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Metal Head Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Shadow Brute": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Shadow Brutes to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Shadow Brute Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Shadow Shaman": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Shadow Shamans to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Shadow Shaman Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Allow Squid Kid": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Squid Kids to drops moss.",
+            "Section": "Mines (minus Slimes)"
+        },
+        "Squid Kid Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Mines (minus Slimes)"
+        },
+        //Skull Cavern
+        "Allow Carbon Ghost": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Carbon Ghost to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Carbon Ghost Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Allow Iridium Bat": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Iridium Bat to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Iridium Bat Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Allow Iridium Crab": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Iridium Crab to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Iridium Crab Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Allow Mummy": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Mummy to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Mummy Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Allow Pepper Rex": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Pepper Rex to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Pepper Rex Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Allow Serpent": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Serpent to drops moss.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        "Serpent Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Skull Cavern (minus Slimes)"
+        },
+        //Volcano
+        "Allow Dwarvish Sentry": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Dwarvish Sentry to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Dwarvish Sentry Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow False Magma Cap": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow False Magma Cap to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "False Magma Cap Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow Hot Head": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Hot Head to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Hot Head Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow Lava Lurk": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Lava Lurk to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Lava Lurk Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow Magma Sprite": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Magma Sprite to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Magma Sprite Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow Magma Sparker": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Magma Sparker to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Magma Sparker Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Allow Magma Duggy": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Magma Duggy to drops moss.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        "Magma Duggy Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Volcano (minus Slimes)"
+        },
+        //Farm
+        "Allow Truffle Crab": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Truffle Crab to drops moss.",
+            "Section": "Farm (minus Slimes)"
+        },
+        "Truffle Crab Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Farm (minus Slimes)"
+        },
+        "Allow Wilderness Golem": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Wilderness Golem to drops moss.",
+            "Section": "Farm (minus Slimes)"
+        },
+        "Wilderness Golem Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Farm (minus Slimes)"
+        },
+        "Allow Iridium Golem": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Iridium Golem to drops moss.",
+            "Section": "Farm (minus Slimes)"
+        },
+        "Iridium Golem Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Farm (minus Slimes)"
+        },
+        //Dangerous
+        "Allow Blue Squid": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Blue Squid to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Blue Squid Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Allow Putrid Ghost": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Putrid Ghost to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Putrid Ghost Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Allow Spider": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Spider to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Spider Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Allow Skeleton Warrior": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Skeleton Warrior to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Skeleton Warrior Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+         "Allow Skeleton Mage": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Skeleton Mage to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Skeleton Mage Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Allow Shadow Sniper": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Shadow Sniper to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Shadow Sniper Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Allow Royal Serpent": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Allow Royal Serpent to drops moss.",
+            "Section": "Dangerous (minus Slimes)"
+        },
+        "Royal Serpent Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc.",
+            "Section": "Dangerous (minus Slimes)"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "slimes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "mines.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "skullcavern.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "farm.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "dangerous.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "volcano.json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "ECoalifier_Name": "ECoalifier",
+  "ECoalifier_Description": "A high-tech device that decomposes Battery Packs into Coal.",
+
+  "config.TextureStyle.name": "Texture Style",
+  "config.TextureStyle.description": "Choose the visual style of the machine.",
+  "config.TextureStyle.values.Vanilla": "Vanilla",
+  "config.TextureStyle.values.Earthy": "Earthy",
+
+  "config.Recipe_BatteryCount.name": "Recipe: Batteries",
+  "config.Recipe_BatteryCount.description": "Amount of Battery Packs required.",
+
+  "config.Recipe_DiamondCount.name": "Recipe: Diamonds",
+  "config.Recipe_DiamondCount.description": "Amount of Diamonds required.",
+
+  "config.Recipe_PrismaticCount.name": "Recipe: Prismatic Shards",
+  "config.Recipe_PrismaticCount.description": "Amount of Prismatic Shards required.",
+
+  "config.Recipe_IronBarCount.name": "Recipe: Iron Bars",
+  "config.Recipe_IronBarCount.description": "Amount of Iron Bars required.",
+
+  "config.Recipe_CoalCount.name": "Recipe: Coal",
+  "config.Recipe_CoalCount.description": "Amount of Coal required.",
+
+  "config.Recipe_WoodCount.name": "Recipe: Wood",
+  "config.Recipe_WoodCount.description": "Amount of Wood required.",
+
+  "config.Output_CoalCount.name": "Coal Output",
+  "config.Output_CoalCount.description": "Amount of Coal produced from 1 Battery.",
+
+  "Mail_Title": "Energy Solution",
+  "Mail_Text": "Dear Farmer @,^A new research reveals a method to convert pure electrical energy to condensed fossil matter.^   - The Stardew Research Journal "
+}

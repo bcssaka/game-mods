@@ -1,0 +1,48 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Robin - Itens extras (Ano 1)",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Carpenter", "Items" ],
+      "When": { "Year": "1" },
+      "Entries": {
+        "HardwoodRobin": { "ItemId": "709", "Price": 100, "AvailableStock": 50 },
+
+        "KegRobin": { "ItemId": "(BC)12", "Price": 1200, "AvailableStock": 5 },
+        "CaskRobin": { "ItemId": "(BC)163", "Price": 1000, "AvailableStock": 20 },
+        "BeeHouseRobin": { "ItemId": "(BC)10", "Price": 800, "AvailableStock": 10 },
+        "PreservesJarRobin": { "ItemId": "(BC)15", "Price": 1000, "AvailableStock": 5 },
+        "LoomRobin": { "ItemId": "(BC)17", "Price": 900, "AvailableStock": 5 },
+        "TapperRobin": { "ItemId": "(BC)105", "Price": 500, "AvailableStock": 10 },
+        "CharcoalKilnRobin": { "ItemId": "(BC)114", "Price": 600, "AvailableStock": 5 },
+        "ChestRobin": { "ItemId": "(BC)130", "Price": 100, "AvailableStock": 10 },
+
+        "SignRobin": { "ItemId": "(BC)TextSign", "Price": 50, "AvailableStock": 10 }
+      }
+    },
+
+    {
+      "LogName": "Robin - Itens extras (Ano 2+)",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Carpenter", "Items" ],
+      "When": { "Year": "2, 3, 4, 5, 6, 7, 8, 9, 10" },
+      "Entries": {
+        "HardwoodRobin": { "ItemId": "709", "Price": 200, "AvailableStock": 50 },
+
+        "KegRobin": { "ItemId": "(BC)12", "Price": 2500, "AvailableStock": 10 },
+        "CaskRobin": { "ItemId": "(BC)163", "Price": 1200, "AvailableStock": 20 },
+        "BeeHouseRobin": { "ItemId": "(BC)10", "Price": 1600, "AvailableStock": 10 },
+        "PreservesJarRobin": { "ItemId": "(BC)15", "Price": 2000, "AvailableStock": 5 },
+        "LoomRobin": { "ItemId": "(BC)17", "Price": 1800, "AvailableStock": 5 },
+        "TapperRobin": { "ItemId": "(BC)105", "Price": 800, "AvailableStock": 10 },
+        "CharcoalKilnRobin": { "ItemId": "(BC)114", "Price": 1000, "AvailableStock": 5 },
+        "ChestRobin": { "ItemId": "(BC)130", "Price": 150, "AvailableStock": 10 },
+
+        "SignRobin": { "ItemId": "(BC)TextSign", "Price": 80, "AvailableStock": 10 }
+      }
+    }
+  ]
+}

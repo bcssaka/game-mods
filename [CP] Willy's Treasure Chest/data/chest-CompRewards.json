@@ -1,0 +1,265 @@
+{
+    "Changes": [
+
+        //SHOP DATA - COMPETITION REWARDS - TROUT DERBY
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //TENT KIT
+                    "{{ModId}}_TentKitCR": {
+                        "ItemId": "(O)TentKit",
+                        "AvailableStock": 1
+                    },
+                    //BUCKET HAT
+                    "{{ModId}}_BucketHatCR": {
+                        "ItemId": "(H)BucketHat",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Price": 1000
+                    },
+                    //CRAB POT
+                    "{{ModId}}_CrabPotCR": {
+                        "ItemId": "(O)710",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "PLAYER_BASE_FISHING_LEVEL Current 0 2"
+                    },
+                    //MYSTERY BOX - TROUT DERBY
+                    "{{ModId}}_MysteryBoxTroutCR": {
+                        "ItemId": "(O)MysteryBox",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 3, 6 ]
+                            }
+                        ],
+                        "Price": 500
+                    },
+                    //DIAMOND
+                    "{{ModId}}_DiamondCR": {
+                        "ItemId": "(O)72",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ]
+                    },
+                    //MOUNTED TROUT
+                    "{{ModId}}_MountedTroutCR": {
+                        "ItemId": "(F)MountedTrout_Painting",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Price": 1000
+                    },
+                    //DELUXE BAIT - TROUT DERBY
+                    "{{ModId}}_DeluxeBaitTroutCR": {
+                        "ItemId": "(O)DeluxeBait",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 20, 40 ]
+                            }
+                        ],
+                        "Condition": "PLAYER_BASE_FISHING_LEVEL Current 0 3"
+                    },
+                    //TRIPLE SHOT ESPRESSO - TROUT DERBY
+                    "{{ModId}}_TripleShotEspressoTroutCR": {
+                        "ItemId": "(O)253",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 4 ]
+                            }
+                        ]
+                    },
+                    //QUALITY SPRINKLER
+                    "{{ModId}}_QualitySprinklerCR": {
+                        "ItemId": "(O)621",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ]
+                    },
+                    //WARP TOTEM FARM
+                    "{{ModId}}_WarpTotemFarmCR": {
+                        "ItemId": "(O)688",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 3, 6 ]
+                            }
+                        ]
+                    },
+                    //OMNI GEODE
+                    "{{ModId}}_OmniGeodeCR": {
+                        "ItemId": "(O)749",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 3, 6 ]
+                            }
+                        ],
+                        "Price": 500
+                    }
+        },
+        "When": {
+            "Season": "Summer",
+            "Day": 22,
+            "Query: {{Year}} >= {{CompRewards}}": "true"
+        }
+        },
+
+        //SHOP DATA - COMPETITION REWARDS - SQUIDFEST
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //DELUXE BAIT - SQUIDFEST
+                    "{{ModId}}_DeluxeBaitSquidCR": {
+                        "ItemId": "(O)DeluxeBait",
+                        "AvailableStock": 20,
+                        "Condition": "PLAYER_BASE_FISHING_LEVEL Current 0 3"
+                    },
+                    //WINTER SEEDS
+                    "{{ModId}}_WinterSeedsCR": {
+                        "ItemId": "(O)498",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 10, 15, 25 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestWinterSeedsCR 0.75"
+                    },
+                    //DISH O' THE SEA
+                    "{{ModId}}_DishOTheSeaCR": {
+                        "ItemId": "(O)242",
+                        "AvailableStock": 2
+                    },
+                    //MYSTERY BOX - SQUIDFEST - HAS NOT READ ART O' CRABBING
+                    "{{ModId}}_MysteryBoxSquidCR": {
+                        "ItemId": "(O)MysteryBox",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 3, 5, 6, 8 ]
+                            }
+                        ],
+                        "Price": 500,
+                        "Condition": "SYNCED_RANDOM day ChestMysteryBoxSquidCR 0.8333, PLAYER_STAT Current Book_Crabbing 0 0"
+                    },
+                    //MYSTERY BOX - SQUIDFEST - HAS READ ART O' CRABBING
+                    "{{ModId}}_MysteryBoxSquidCR_AOC": {
+                        "ItemId": "(O)MysteryBox",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 3, 5, 6, 8, 9, 11 ]
+                            }
+                        ],
+                        "Price": 500,
+                        "Condition": "SYNCED_RANDOM day ChestMysteryBoxSquidCR_AOC 0.875, PLAYER_STAT Current Book_Crabbing 1"
+                    },
+                    //SEAFOAM PUDDING - HAS NOT READ ART O' CRABBING
+                    "{{ModId}}_SeafoamPuddingCR": {
+                        "ItemId": "(O)265",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestSeafoamPuddingCR 0.5, PLAYER_STAT Current Book_Crabbing 0 0"
+                    },
+                    //SEAFOAM PUDDING - HAS READ ART O' CRABBING
+                    "{{ModId}}_SeafoamPuddingCR_AOC": {
+                        "ItemId": "(O)265",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestSeafoamPuddingCR_AOC 0.75, PLAYER_STAT Current Book_Crabbing 1"
+                    },
+                    //PEARL
+                    "{{ModId}}_PearlCR": {
+                        "ItemId": "(O)797",
+                        "AvailableStock": 1
+                    },
+                    //COFFEE
+                    "{{ModId}}_CoffeeCR": {
+                        "ItemId": "(O)395",
+                        "AvailableStock": 3
+                    },
+                    //'SQUID KID'
+                    "{{ModId}}_SquidKidCR": {
+                        "ItemId": "(F)SquidKid_Painting",
+                        "AvailableStock": 1,
+                        "Price": 1000
+                    },
+                    //THE ART O' CRABBING
+                    "{{ModId}}_ArtOCrabbingCR": {
+                        "ItemId": "(O)Book_Crabbing",
+                        "AvailableStock": 1,
+                        "Condition": "PLAYER_STAT Current Book_Crabbing 0 0"
+                    },
+                    //TRAP BOBBER
+                    "{{ModId}}_TrapBobberCR": {
+                        "ItemId": "(O)694",
+                        "AvailableStock": 1,
+                        "Condition": "PLAYER_BASE_FISHING_LEVEL Current 0 5"                        
+                    },
+                    //TREASURE CHEST
+                    "{{ModId}}_TreasureChestCR": {
+                        "ItemId": "(O)166",
+                        "AvailableStock": 1
+                    },
+                    //TRIPLE SHOT ESPRESSO - SQUIDFEST
+                    "{{ModId}}_TripleShotEspressoSquidCR": {
+                        "ItemId": "(O)253",
+                        "AvailableStock": 3
+                    },
+                    //SQUID HAT
+                    "{{ModId}}_SquidHatCR": {
+                        "ItemId": "(H)SquidHat",
+                        "AvailableStock": 1,
+                        "Price": 1000
+                    }
+        },
+        "When": {
+            "Season": "Winter",
+            "Day": 14,
+            "Query: {{Year}} >= {{CompRewards}}": "true"
+        }
+        }
+
+    ]
+}

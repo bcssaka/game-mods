@@ -1,0 +1,40 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"Crystalarium": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Crystalarium_body}} %item object 80 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_Crystalarium_title}}",
+
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800301/r 1/d/x Crystalarium": "null",
+	
+				}
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+		
+		"sadnumbme.ClintSellsAdditionalSupplies_Crystalarium": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Crystalarium}}", //3
+					"ItemId": "(BC)21",
+                    "Price": "{{Crystalarium_Price}}",
+					"AvailableStock" : "-1",
+		}
+		}
+	}
+	]
+}
+	

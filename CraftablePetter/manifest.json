@@ -1,0 +1,9 @@
+{
+  "Name": "Auto Petter Recipe Unlock",
+  "Author": "ThexOnlyxJosh",
+  "Version": "1.0.0",
+  "Description": "Unlocks Auto-Petter crafting recipe after obtaining one.",
+  "UniqueID": "TOJ.AutoPetterRecipeUnlock",
+  "EntryDll": "CraftablePetter.dll",
+  "MinimumApiVersion": "4.0.0"
+}

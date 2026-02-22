@@ -1,0 +1,12 @@
+{
+	"Name": "Buyable Dragon Teeth",
+	"Author": "Shalassa",
+	"Version": "1.0.0",
+	"Description": "Allows you to buy dragon teeth in the volcano's shop.",
+	"UniqueID": "Lassa.BuyableTeeth",
+	"MinimumApiVersion": "4.1",
+	"UpdateKeys": [ "Nexus:42113" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	}
+}

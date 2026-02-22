@@ -1,0 +1,12 @@
+{
+    "Name": "BRConverter",
+    "Author": "HBPro360",
+    "Version": "1.0.0",
+    "Description": "Basic material converter",
+    "UniqueID": "HBPro360.cp_BRConverter",
+    "UpdateKeys": [],
+        "ContentPackFor":
+        {
+            "UniqueID": "Pathoschild.ContentPatcher"
+        }
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "MoreMossMonsters",
+    "Author": "Safty112",
+    "Version": "1.1.0",
+    "Description": "Get moss from monster drops",
+    "UniqueID": "Safty112.MoreMossMonsters",
+    "UpdateKeys": ["Nexus:39632"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

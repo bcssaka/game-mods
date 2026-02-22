@@ -1,0 +1,11 @@
+{
+    "Name": "Willy's Treasure Chest",
+    "Author": "Smashley41",
+    "Version": "1.0.0",
+    "Description": "Willy sells some of the treasures he collects while fishing.",
+    "UniqueID": "Smashley41.WillyChest",
+    "UpdateKeys": ["Nexus:42381"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

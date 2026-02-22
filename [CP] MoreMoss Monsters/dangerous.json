@@ -1,0 +1,137 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Blue Squid",
+                        "6"
+                    ],
+                    "Value": "Moss {{Blue Squid Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Blue Squid": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Putrid Ghost",
+                        "6"
+                    ],
+                    "Value": "Moss {{Putrid Ghost Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Putrid Ghost": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Spider",
+                        "6"
+                    ],
+                    "Value": "Moss {{Spider Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Spider": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Skeleton Warrior",
+                        "6"
+                    ],
+                    "Value": "Moss {{Skeleton Warrior Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Skeleton Warrior": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Skeleton Mage",
+                        "6"
+                    ],
+                    "Value": "Moss {{Skeleton Mage Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Skeleton Mage": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shadow Sniper",
+                        "6"
+                    ],
+                    "Value": "Moss {{Shadow Sniper Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Shadow Sniper": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Royal Serpent",
+                        "6"
+                    ],
+                    "Value": "Moss {{Royal Serpent Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Royal Serpent": true
+            }
+        }
+    ]
+}

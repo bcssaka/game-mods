@@ -1,0 +1,118 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Carbon Ghost",
+                        "6"
+                    ],
+                    "Value": "Moss {{Carbon Ghost Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Carbon Ghost": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Iridium Bat",
+                        "6"
+                    ],
+                    "Value": "Moss {{Iridium Bat Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Iridium Bat": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Iridium Crab",
+                        "6"
+                    ],
+                    "Value": "Moss {{Iridium Crab Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Iridium Crab": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Mummy",
+                        "6"
+                    ],
+                    "Value": "Moss {{Mummy Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Mummy": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pepper Rex",
+                        "6"
+                    ],
+                    "Value": "Moss {{Pepper Rex Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Pepper Rex": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Serpent",
+                        "6"
+                    ],
+                    "Value": "Moss {{Serpent Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Serpent": true
+            }
+        }
+    ]
+}

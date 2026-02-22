@@ -1,0 +1,47 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"Iridium": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Iridium_body}} %item object 386 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_Iridium_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800801/r 1/d/x Iridium": "null",
+		},
+		},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+
+		"sadnumbme.ClintSellsAdditionalSupplies_IridiumBar": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_IridiumBar}}", //8a
+					"ItemId": "337",
+                    "Price": "{{Iridium_Bar_Price}}",
+					"AvailableStock" : "-1",
+				
+							
+					},	
+		
+		"sadnumbme.ClintSellsAdditionalSupplies_IridiumOre": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_IridiumOre}}", //8b
+			        "ItemId": "386",
+                    "Price": "{{Iridium_Ore_Price}}",
+					"AvailableStock" : "-1",
+		}		
+		}		
+		}
+	]
+}
+	

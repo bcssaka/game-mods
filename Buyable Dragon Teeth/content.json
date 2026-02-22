@@ -1,0 +1,30 @@
+{
+    "Format": "2.8.0",
+
+    "ConfigSchema": {
+        "ToothPrice": {
+            "Description": "Adjust price of Dragon Tooth in the Volcano Shop.",
+            "AllowValues": "100, 150, 200, 250, 400",
+            "Default": "200",
+            "AllowBlank": false
+        },
+    },
+
+
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "VolcanoShop", "Items" ],
+            "Entries": {
+                "Lassa.BuyableTeeth_DragonTooth": {
+                    "Id": "Lassa.BuyableTeeth_DragonTooth",
+                    "ItemId": "(O)852",
+                    "TradeItemId": "(O)848",
+                    "TradeItemAmount": "{{ToothPrice}}",
+                    "Price": -1,
+                },
+            },
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "ECoalifier",
+  "Author": "Riyango",
+  "Version": "1.0.1",
+  "Description": "Adds the ECoalifier, a machine that converts Batteries into Coal.",
+  "UniqueID": "Riyango.ECoalifier",
+  "UpdateKeys": ["Nexus:40624"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

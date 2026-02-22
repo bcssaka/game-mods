@@ -1,0 +1,13 @@
+{
+  "Name": "(CP)Clint sells additional supplies.",
+  "Author": "sadnumbme",
+  "Version": "2.5.0",//Updated January 23, 2026
+  "Description": "Clint sells additional supplies such as Copper Bars to Lighting Rods. Inventory increases with friendship and skills.",
+  "UniqueID": "sadnumbme.ClintSellsAdditionalSupplies",
+  "UpdateKeys": ["Nexus:30580"],
+   "MinimumApiVersion": "4.3.2",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  
+}

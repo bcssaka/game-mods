@@ -1,0 +1,311 @@
+{
+    "Format": "2.8.1",
+    "ConfigSchema": {
+        "Allow Oak": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Oak trees to drops moss."
+        },
+        "Oak Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Maple": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Maple trees to drops moss."
+        },
+        "Maple Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Pine": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Pine trees to drops moss."
+        },
+        "Pine Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Desert Palm": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Desert Palm trees to drops moss."
+        },
+        "Desert Palm Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Mushroom": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Mushroom trees to drops moss."
+        },
+        "Mushroom Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+         "Allow Mahogany": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Mahogany trees to drops moss."
+        },
+        "Mahogany Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Island Palm": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Island Palm trees to drops moss."
+        },
+        "Island Palm Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Green Tree 1": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Green Tree 1 trees to drops moss."
+        },
+        "Green Tree 1 Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Green Tree 2": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Green Tree 2 trees to drops moss."
+        },
+        "Green Tree 2 Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Giant Fiddlehead": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Giant Fiddlehead trees to drops moss."
+        },
+        "Giant Fiddlehead Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        },
+        "Allow Mystic": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allow Mystic trees to drops moss."
+        },
+        "Mystic Chance": {
+            "AllowValues": "0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0",
+            "Default": "0.1",
+            "Description": "Percent chance of drop from 1-100%. 0.01 = 1%, 0.1 = 10% chance etc."
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["1"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Oak Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Oak": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["2"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Maple Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Maple": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["3"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Pine Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Pine": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["6"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Desert Palm Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Desert Palm": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["7"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Mushroom Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Mushroom": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["8"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Mahogany Chance}}"
+                    },
+                    {
+                        "Id": "(O)709",
+                        "ItemId": "(O)709",
+                        "MinStack": 7,
+                        "MaxStack": 11,
+                        "Chance": 1.0
+                    }
+                ]
+            }, "When": {
+                "Allow Mahogany": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["9"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Island Palm Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Island Palm": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["10"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Green Tree 1 Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Green Tree 1": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["11"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Green Tree 2 Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Green Tree 2": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["12"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Giant Fiddlehead Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Giant Fiddlehead": true
+            }
+        },
+         {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "TargetField": ["13"],
+            "Entries": {
+                "ChopItems": [
+                    {
+                        "Id": "Moss",
+                        "ItemId": "(O)Moss",
+                        "MinStack": "1",
+                        "Chance": "{{Mystic Chance}}"
+                    }
+                ]
+            }, "When": {
+                "Allow Mystic": true
+            }
+        }
+    ]
+}

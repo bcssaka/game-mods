@@ -1,0 +1,151 @@
+{
+	"Changes": [
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"ItemsClintBuys": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_ItemsClintBuys_body}} [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_ItemsClintBuys_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305801101/r 1/d/x ItemsClintBuys": "null",
+	
+				},
+	
+	},
+		{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": ["Blacksmith","SalableItemTags"],
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["114","ContextTags"], // 1 Charcoal Kiln
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["21","ContextTags"],//2 Crystalarium
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["13","ContextTags"],//3 Furnace
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["HeavyFurnace","ContextTags"], //4 HeavyFurnace
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["9","ContextTags"], //5 Lightning Rod
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["231","ContextTags"],//6 Solar Panel
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["20","ContextTags"], //7 Recycling Machine
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["25","ContextTags"], //8 Seed Maker
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["156","ContextTags"],//9 Slime Incubator
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["254","ContextTags"],//10 Ostrich Incubator
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["158","ContextTags"], //11 Slime Egg-Press
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["105","ContextTags"],//12 Tapper
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["264","ContextTags"],//13 Heavy Tapper
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["90","ContextTags"], //14 Bone Mill
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"TargetField": ["182","ContextTags"], //15 Geode Crusher
+		"Entries": {
+			"{{ModID}}_ItemsClintBuys": "{{ModID}}_ItemsClintBuys"
+		}
+		}
+	]
+}

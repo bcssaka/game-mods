@@ -1,0 +1,202 @@
+{
+    "Format": "2.8.0",
+    
+    "ConfigSchema": {
+        "LootPool": {
+            "AllowValues": "Gameplay,Lore",
+            "Default": "Gameplay",
+            "Section": "General"
+        },
+        "TreasurePrices": {
+            "AllowValues": "Bargain,Standard,Markup,Doubled",
+            "Default": "Standard",
+            "Section": "General"
+        },
+        "PanStock": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "Section": "General"
+        },
+        "CompRewards": {
+            "AllowValues": "Off,1,2",
+            "Default": "Off",
+            "Section": "General"
+        },
+        "LoreDistance": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "Section": "LoreExtra"
+        },
+        "GoldEggPerfection": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "Section": "LoreExtra"
+        }
+    },
+
+
+    "DynamicTokens": [
+        {
+            "Name": "ShopPrices",
+            "Value": 0.5,
+            "When": {
+                "TreasurePrices": "Bargain"
+            }
+        },
+        {
+            "Name": "ShopPrices",
+            "Value": 1.0,
+            "When": {
+                "TreasurePrices": "Standard"
+            }
+        },
+        {
+            "Name": "ShopPrices",
+            "Value": 1.5,
+            "When": {
+                "TreasurePrices": "Markup"
+            }
+        },
+        {
+            "Name": "ShopPrices",
+            "Value": 2.0,
+            "When": {
+                "TreasurePrices": "Doubled"
+            }
+        }
+    ],
+
+    
+    "Changes": [
+
+        //Patch the FishShop map
+        {
+          "Action": "EditMap",
+          "Target": "Maps/FishShop",
+          "FromFile": "maps/TreasureChest.tmx",
+          "ToArea": { "X": 8, "Y": 3, "Width": 1, "Height": 1 },
+          "MapTiles": [
+              {
+                  "Layer": "Buildings",
+                  "Position": { "X": 8, "Y": 4 },
+                  "SetProperties": {
+                      "Action": "OpenShop {{ModId}}_WillyChest down 900 1700 4 4 3 2"
+                  }
+              }
+          ]
+        },
+
+
+        //Set the Owner properties based on LootPool selection
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_WillyChest": {
+                "Owners": [
+                    {
+                        "Name": "Willy",
+                        "Dialogues": [
+                            {
+                            "Id": "{{ModId}}_ShopDialogue",
+                            "RandomDialogue": [
+                                "{{i18n:ShopDialogues.Dialogue1}}",
+                                "{{i18n:ShopDialogues.Dialogue2}}",
+                                "{{i18n:ShopDialogues.Dialogue3}}",
+                                "{{i18n:ShopDialogues.Dialogue4}}",
+                                "{{i18n:ShopDialogues.Dialogue5}}",
+                                "{{i18n:ShopDialogues.Dialogue6}}"
+                            ]
+                            }
+                        ],
+                        "RandomizeDialogueOnOpen": "false"
+                    }
+                ],
+                "PriceModifiers": [
+                    {
+                        "Id": "{{ModId}}_PriceModifier",
+                        "Modification": "Multiply",
+                        "Amount": "{{ShopPrices}}"
+                    }
+                ]
+           }
+        },
+        "When": {
+            "LootPool": "Gameplay"
+        }
+        },
+
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_WillyChest": {
+                "Owners": [
+                    {
+                        "Name": "Willy",
+                        "Dialogues": [
+                            {
+                            "Id": "{{ModId}}_ShopDialogue",
+                            "Dialogue": "{{i18n:ShopDialogues.Dialogue0}}"
+                            }
+                        ]
+                    }
+                ],
+                "PriceModifiers": [
+                    {
+                        "Id": "{{ModId}}_PriceModifier",
+                        "Modification": "Multiply",
+                        "Amount": "{{ShopPrices}}"
+                    }
+                ]
+           }
+        },
+        "When": {
+            "LootPool": "Lore"
+        }
+        },
+
+
+        //INCLUDES
+        {
+        "Action": "Include",
+        "FromFile": "data/chest-CompRewards.json",
+        "When": {
+            "CompRewards": "1,2"
+            }
+        },
+        {
+        "Action": "Include",
+        "FromFile": "data/chest-Gameplay.json",
+        "When": {
+            "LootPool": "Gameplay"
+            }
+        },
+        {
+        "Action": "Include",
+        "FromFile": "data/chest-Lore.json",
+        "When": {
+            "LootPool": "Lore"
+            }
+        },
+        {
+        "Action": "Include",
+        "FromFile": "data/pan-Gameplay.json",
+        "When": {
+            "LootPool": "Gameplay",
+            "PanStock": "true"
+            }
+        },
+        {
+        "Action": "Include",
+        "FromFile": "data/pan-Lore.json",
+        "When": {
+            "LootPool": "Lore",
+            "PanStock": "true"
+            }
+        }
+
+
+ 
+    ]
+}

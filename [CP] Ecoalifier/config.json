@@ -1,0 +1,10 @@
+{
+  "TextureStyle": "Earthy",
+  "Recipe_BatteryCount": "1",
+  "Recipe_DiamondCount": "1",
+  "Recipe_PrismaticCount": "1",
+  "Recipe_IronBarCount": "10",
+  "Recipe_CoalCount": "20",
+  "Recipe_WoodCount": "50",
+  "Output_CoalCount": "5"
+}

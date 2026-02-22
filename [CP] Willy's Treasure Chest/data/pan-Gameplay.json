@@ -1,0 +1,481 @@
+{
+    "Changes": [
+
+        //PANNING STOCK - BEFORE UNLOCKING PAN
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //MYSTERY BOX
+                    "{{ModId}}_MysteryBoxPre": {
+                        "ItemId": "(O)MysteryBox",
+                        "Price": 500,
+                        "AvailableStock": 1,
+                        "Condition": "ANY \"SYNCED_RANDOM day ChestMysteryBoxPre 0.125 @addDailyLuck, PLAYER_STAT Current Mastery_2 0 0, PLAYER_STAT Current BillboardQuestsDone 6\" \"SYNCED_RANDOM day ChestMysteryBoxPre 0.125 @addDailyLuck, PLAYER_STAT Current Mastery_2 0 0, DAYS_PLAYED 50\"",
+                        "AvoidRepeat": "true"
+                    },
+                    //GOLDEN MYSTERY BOX
+                    "{{ModId}}_GoldenMysteryBoxPre": {
+                        "ItemId": "(O)GoldenMysteryBox",
+                        "Price": 2000,                        
+                        "AvailableStock": 1,
+                        "Condition": "ANY \"SYNCED_RANDOM day ChestGoldenMysteryBoxPre 0.125 @addDailyLuck, PLAYER_STAT Current Mastery_2 1, PLAYER_STAT Current BillboardQuestsDone 6\" \"SYNCED_RANDOM day ChestGoldenMysteryBoxPre 0.125 @addDailyLuck, PLAYER_STAT Current Mastery_2 1, DAYS_PLAYED 50\""
+                    },
+                    //IRIDIUM ORE
+                    "{{ModId}}_IridiumOrePre": {
+                        "ItemId": "(O)386",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIridiumOrePre 0.011"
+                    },
+                    //GOLD ORE
+                    "{{ModId}}_GoldOrePre": {
+                        "ItemId": "(O)384",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestGoldOrePre 0.09"
+                    },
+                    //IRON ORE
+                    "{{ModId}}_IronOrePre": {
+                        "ItemId": "(O)380",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIronOrePre 0.065"
+                    },
+                    //COPPER ORE
+                    "{{ModId}}_CopperOrePre": {
+                        "ItemId": "(O)378",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCopperOrePre 0.075"
+                    },
+                    //COAL
+                    "{{ModId}}_CoalPre": {
+                        "ItemId": "(O)382",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCoalPre 0.23"
+                    },
+                    //FIRE QUARTZ
+                    "{{ModId}}_FireQuartzPre": {
+                        "ItemId": "(O)82",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFireQuartzPre 0.037, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //RUBY
+                    "{{ModId}}_RubyPre": {
+                        "ItemId": "(O)64",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRubyPre 0.043, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //EMERALD
+                    "{{ModId}}_EmeraldPre": {
+                        "ItemId": "(O)60",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEmeraldPre 0.043, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //FROZEN TEAR
+                    "{{ModId}}_FrozenTearPre": {
+                        "ItemId": "(O)84",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFrozenTearPre 0.037, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //AQUAMARINE
+                    "{{ModId}}_AquamarinePre": {
+                        "ItemId": "(O)62",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAquamarinePre 0.043, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //EARTH CRYSTAL
+                    "{{ModId}}_EarthCrystalPre": {
+                        "ItemId": "(O)86",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEarthCrystalPre 0.03, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //AMETHYST
+                    "{{ModId}}_AmethystPre": {
+                        "ItemId": "(O)66",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAmethystPre 0.035, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //TOPAZ
+                    "{{ModId}}_TopazPre": {
+                        "ItemId": "(O)68",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestTopazPre 0.035, PLAYER_BASE_FISHING_LEVEL Current 2"
+                    },
+                    //DIAMOND
+                    "{{ModId}}_DiamondPre": {
+                        "ItemId": "(O)72",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestDiamondPre 0.03, PLAYER_BASE_FISHING_LEVEL Current 2",
+                        "AvoidRepeat": "true"
+                    }
+        },
+        "When": {
+            "HasSeenEvent |contains=404798": "false"
+        }
+        },
+
+        //PANNING STOCK - AFTER UNLOCKING PAN
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_WillyChest", "Items" ],
+        "Entries": {
+                    //IRIDIUM ORE
+                    "{{ModId}}_IridiumOrePan": {
+                        "ItemId": "(O)386",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIridiumOrePan 0.121 @addDailyLuck"
+                    },
+                    //GOLD ORE
+                    "{{ModId}}_GoldOrePan": {
+                        "ItemId": "(O)384",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestGoldOrePan 0.298 @addDailyLuck"
+                    },
+                    //IRON ORE
+                    "{{ModId}}_IronOrePan": {
+                        "ItemId": "(O)380",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestIronOrePan 0.388 @addDailyLuck"
+                    },
+                    //COPPER ORE
+                    "{{ModId}}_CopperOrePan": {
+                        "ItemId": "(O)378",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCopperOrePan 0.335 @addDailyLuck"
+                    },
+                    //BONE FRAGMENT
+                    "{{ModId}}_BoneFragmentPan": {
+                        "ItemId": "(O)881",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestBoneFragmentPan 0.1 @addDailyLuck"
+                    },
+                    //DIAMOND
+                    "{{ModId}}_DiamondPan": {
+                        "ItemId": "(O)72",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestDiamondPan 0.0487 @addDailyLuck",
+                        "AvoidRepeat": "true"
+                    },
+                    //AMETHYST
+                    "{{ModId}}_AmethystPan": {
+                        "ItemId": "(O)66",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAmethystPan 0.045 @addDailyLuck"
+                    },
+                    //AQUAMARINE
+                    "{{ModId}}_AquamarinePan": {
+                        "ItemId": "(O)62",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestAquamarinePan 0.053 @addDailyLuck"
+                    },
+                    //EMERALD
+                    "{{ModId}}_EmeraldPan": {
+                        "ItemId": "(O)60",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEmeraldPan 0.053 @addDailyLuck"
+                    },
+                    //RUBY
+                    "{{ModId}}_RubyPan": {
+                        "ItemId": "(O)64",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestRubyPan 0.053 @addDailyLuck"
+                    },
+                    //TOPAZ
+                    "{{ModId}}_TopazPan": {
+                        "ItemId": "(O)68",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestTopazPan 0.045 @addDailyLuck"
+                    },
+                    //OMNI GEODE
+                    "{{ModId}}_OmniGeodePan": {
+                        "ItemId": "(O)749",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestOmniGeodePan 0.28",
+                        "Price": 500,
+                        "AvoidRepeat": "true"
+                    },
+                    //FIRE QUARTZ
+                    "{{ModId}}_FireQuartzPan": {
+                        "ItemId": "(O)82",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFireQuartzPan 0.084"
+                    },
+                    //EARTH CRYSTAL
+                    "{{ModId}}_EarthCrystalPan": {
+                        "ItemId": "(O)86",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestEarthCrystalPan 0.077"
+                    },
+                    //FROZEN TEAR
+                    "{{ModId}}_FrozenTearPan": {
+                        "ItemId": "(O)84",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestFrozenTearPan 0.084"
+                    },
+                    //COAL
+                    "{{ModId}}_CoalPan": {
+                        "ItemId": "(O)382",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ]
+                            }
+                        ],
+                        "Condition": "SYNCED_RANDOM day ChestCoalPan 0.73 @addDailyLuck"
+                    },
+                    //RANDOM FURNITURE
+                    "{{ModId}}_RandomFurniturePan": {
+                        "ItemId": "RANDOM_ITEMS (F) @requirePrice",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRandomFurniturePan 0.0275 @addDailyLuck"
+                    },
+                    //RANDOM CLOTHING
+                    "{{ModId}}_RandomClothingPan": {
+                        "ItemId": "RANDOM_ITEMS (S)",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRandomClothingPan 0.0275 @addDailyLuck"
+                    },
+                    //RANDOM HAT
+                    "{{ModId}}_RandomHatPan": {
+                        "RandomItemId": [ "(H)45,(H)46,(H)47,(H)49,(H)52,(H)53,(H)54,(H)55,(H)57,(H)58,(H)59,(H)62,(H)63,(H)68,(H)69,(H)70,(H)84,(H)85,(H)87,(H)88,(H)89,(H)90" ],
+                        "Price": 500,
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRandomHatPan 0.0275 @addDailyLuck"
+                    },
+                    //RANDOM ARTIFACT
+                    "{{ModId}}_RandomArtifactPan": {
+                        "ItemId": "RANDOM_ITEMS (O)",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestRandomArtifactPan 0.02",
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target item_type_arch",
+                        "AvoidRepeat": "true"
+                    },
+                    //MYSTERY BOX
+                    "{{ModId}}_MysteryBoxPan": {
+                        "ItemId": "(O)MysteryBox",
+                        "Price": 500,
+                        "AvailableStock": 1,
+                        "Condition": "ANY \"SYNCED_RANDOM day ChestMysteryBoxPan 0.1635 @addDailyLuck, PLAYER_STAT Current BillboardQuestsDone 6\" \"SYNCED_RANDOM day ChestMysteryBoxPan 0.1635 @addDailyLuck, DAYS_PLAYED 50\"",
+                        "AvoidRepeat": "true"
+                    },
+                    //GOLDEN MYSTERY BOX
+                    "{{ModId}}_GoldenMysteryBoxPan": {
+                        "ItemId": "(O)GoldenMysteryBox",
+                        "Price": 2000,                        
+                        "AvailableStock": 1,
+                        "Condition": "ANY \"SYNCED_RANDOM day ChestGoldenMysteryBoxPan 0.1635 @addDailyLuck, PLAYER_STAT Current Mastery_2 1, PLAYER_STAT Current BillboardQuestsDone 6\" \"SYNCED_RANDOM day ChestGoldenMysteryBoxPan 0.1635 @addDailyLuck, PLAYER_STAT Current Mastery_2 1, DAYS_PLAYED 50\""
+                    },
+                    //LUCKY RING
+                    "{{ModId}}_LuckyRingPan": {
+                        "ItemId": "(O)859",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestLuckyRingPan 0 @addDailyLuck"
+                    },
+                    //ARTIFACT TROVE
+                    "{{ModId}}_ArtifactTrovePan": {
+                        "ItemId": "(O)275",
+                        "Price": 1000,
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestArtifactTrovePan 0.05"
+                    },
+                    //FOSSILIZED TAIL
+                    "{{ModId}}_FossilizedTailPan": {
+                        "ItemId": "(O)822",
+                        "AvailableStock": 1,
+                        "Condition": "SYNCED_RANDOM day ChestFossilizedTailPan 0.05, IS_ISLAND_NORTH_BRIDGE_FIXED"
+                    },
+                    //TARO TUBER
+                    "{{ModId}}_TaroTuberPan": {
+                        "ItemId": "(O)831",
+                        "AvailableStockModifiers": [
+                            {
+                            "Id": "{{ModId}}_RandAmount",
+                            "Modification": "Set",
+                            "RandomAmount": [ 1, 2, 3, 4 ]
+                            }
+                        ],    
+                        "Condition": "SYNCED_RANDOM day ChestTaroTuberPan 0.15, PLAYER_VISITED_LOCATION Current IslandSouth"
+                    }
+        },
+        "When": {
+            "HasSeenEvent": "404798"
+        }
+        }
+
+    ]
+}

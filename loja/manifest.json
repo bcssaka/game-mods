@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Robin's Extra Limited Stock",
+  "Author": "Stardevalerio",
+  "Version": "1.0.0",
+  "Description": "Adds limited extra items to Robin's shop. ",
+  "UniqueID": "RobinExtraLimitedStock",
+  "MinimumApiVersion": "2.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

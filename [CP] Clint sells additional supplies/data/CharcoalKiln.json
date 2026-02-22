@@ -1,0 +1,39 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"CharcoalKiln": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_CharcoalKiln_body}} %item object 382 10%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_CharcoalKiln_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800101/r 1/d/x CharcoalKiln": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+	"sadnumbme.ClintSellsAdditionalSupplies_CharcoalKiln": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_CharcoalKiln}}", //1
+			        "ItemId": "(BC)114",
+                    "Price": "{{Charcoal_Kiln_Price}}",
+					"AvailableStock" : "-1",
+	}		
+			}
+		}
+	]
+}
+	

@@ -1,0 +1,99 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Green Slime",
+                        "6"
+                    ],
+                    "Value": "Moss {{Green Slime Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Green Slime": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sludge",
+                        "6"
+                    ],
+                    "Value": "Moss {{Sludge Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Sludge": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Frost Jelly",
+                        "6"
+                    ],
+                    "Value": "Moss {{Frost Jelly Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Frost Jelly": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Big Slime",
+                        "6"
+                    ],
+                    "Value": "Moss {{Big Slime Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Big Slime": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Tiger Slime",
+                        "6"
+                    ],
+                    "Value": "Moss {{Tiger Slime Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Tiger Slime": true
+            }
+        }
+    ]
+}

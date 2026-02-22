@@ -1,0 +1,41 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"LightingRod": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_LightingRod_body}} %item object (BC)9 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_LightingRod_title}}",
+
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305801001/r .99/d/x LightingRod": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+
+		"sadnumbme.ClintSellsAdditionalSupplies_LightingRod": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_LightingRod}}", //10
+					"ItemId": "(BC)9",
+                    "Price": "{{Lighting_Rod_Price}}",
+					"AvailableStock" : "-1",
+		}		
+		}
+					
+		}
+	]
+}
+	

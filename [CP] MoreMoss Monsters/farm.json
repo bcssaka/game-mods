@@ -1,0 +1,61 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Truffle Crab",
+                        "6"
+                    ],
+                    "Value": "Moss {{Truffle Crab Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Truffle Crab": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wilderness Golem",
+                        "6"
+                    ],
+                    "Value": "Moss {{Wilderness Golem Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Wilderness Golem": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Iridium Golem",
+                        "6"
+                    ],
+                    "Value": "Moss {{Iridium Golem Chance}}",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Allow Iridium Golem": true
+            }
+        }
+    ]
+}

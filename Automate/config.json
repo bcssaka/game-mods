@@ -5,7 +5,8 @@
     "ToggleOverlay": "U"
   },
   "ConnectorNames": [
-    "(O)331"
+    "(O)331",
+    "(O)401"
   ],
   "JunimoHutBehaviorForGems": "AutoDetect",
   "JunimoHutBehaviorForFertilizer": "AutoDetect",

@@ -1,0 +1,116 @@
+{"Format": "2.8.0", 
+"ConfigSchema": {
+	
+		"Charcoal_Kiln_Price": {"Default": "3000"},
+		"Copper_Bar_Price": {"Default": "800"},
+		"Crystalarium_Price": {"Default": "25000"},
+		"Furance_Price": {"Default": "3000"},
+		"Gold_Bar_Price": {"Default": "3900"},
+		"Iridium_Bar_Price": {"Default": "5700"},
+		"Iridium_Ore_Price": {"Default": "1000"},
+		"Iron_Bar_Price": {"Default": "1400"},
+		"Lighting_Rod_Price": {"Default": "2500"},
+		"Marble_Price": {"Default": "250"},
+		"Radioactive_Bar_Price": {"Default": "9000"},
+		"Radioactive_Ore_Price": {"Default": "1500"},
+		
+		"Copper_Ore_Year_One_Price": {"Default": "75"}, 
+		"Copper_Ore_Year_Two_Price": {"Default": "150"}, 
+		"Iron_Ore_Year_One_Price": {"Default": "150"},
+		"Iron_Ore_Year_Two_Price": {"Default": "250"},
+		"Gold_Ore_Year_One_Price": {"Default": "400"},
+		"Gold_Ore_Year_Two_Price": {"Default": "750"},
+		"Coal_Year_One_Price": {"Default": "150"},
+		"Coal_Year_Two_Price": {"Default": "250"},
+		
+},
+		"Changes": 
+		[
+		{
+		"Action": "Include",
+		"FromFile": "data/AdjustPrices.json",
+		},
+		
+		{
+		"Action": "Include",
+		"FromFile": "data/ItemsClintBuys.json", //11
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/CharcoalKiln.json", //1
+		"When": {
+		"query: {{Hearts:Clint}} >= 4": true,
+		"query: {{SkillLevel:Foraging}} >= 2": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/CopperBar.json", //2
+		"When": {
+		"query: {{Hearts:Clint}} >= 2": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/Crystalarium.json", //3
+		"When": {
+		"query: {{Hearts:Clint}} >= 10": true,
+		"query: {{SkillLevel:Mining}} >= 9": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/Furance.json", //4 
+		"When": {
+		"query: {{Hearts:Clint}} >= 4": true},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/GoldBar.json", //5
+		 "When": {
+		"query: {{Hearts:Clint}} >= 6": true,
+		"query: {{SkillLevel:Mining}} >= 7": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/Iridium.json", //6
+		"When": {
+		"query: {{Hearts:Clint}} >= 8": true,
+		"query: {{SkillLevel:Mining}} >= 8": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/IronBar.json", //7 
+		"When": {
+		"query: {{Hearts:Clint}} >= 4": true,
+		"query: {{SkillLevel:Mining}} >= 4": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/Marble.json", //10
+		"When": {
+		"query: {{Hearts:Clint}} >= 4": true,
+		"query: {{SkillLevel:Mining}} >= 4": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/LightingRod.json", //8
+		"When": {
+		"query: {{Hearts:Clint}} >= 6": true,
+		"query: {{SkillLevel:Foraging}} >= 6": true,
+		},
+		},
+		{
+		"Action": "Include",
+		"FromFile": "data/Radioactive.json", //9
+		"When": {
+		"query: {{Hearts:Clint}} >= 10": true,
+		"query: {{SkillLevel:Mining}} >= 10": true,
+		}
+		}
+		]
+}

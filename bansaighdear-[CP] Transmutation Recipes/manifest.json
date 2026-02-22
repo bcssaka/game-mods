@@ -1,0 +1,9 @@
+{
+    "Name": "Transmutation Recipes (Iridium and Radioactive)",
+    "Author": "bansaighdear",
+    "Version": "1.0",
+    "Description": "Allows you to transmute iridium bars from gold bars and radioactive bars from iridium bars.",
+    "UniqueID": "bansaighdear.CR-T",
+    "UpdateKeys": [ "Nexus:42303" ],
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

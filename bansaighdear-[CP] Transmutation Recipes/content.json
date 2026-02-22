@@ -1,0 +1,16 @@
+{
+    "Format": "2.9.0",
+    "Changes":
+    [
+      {
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries":
+          {
+            "Transmute (Ir)": "336 3/Home/337/false/Mining 9/Transmute (Ir)",
+            "Transmute (U)": "337 3/Home/910/false/Mining 10/Transmute (U)"
+          }
+      }
+    ]
+}
+ 

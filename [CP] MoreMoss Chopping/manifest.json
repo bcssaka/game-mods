@@ -1,0 +1,11 @@
+{
+    "Name": "MoreMossChopping",
+    "Author": "Safty112",
+    "Version": "1.2.0",
+    "Description": "Get moss from chopping tress",
+    "UniqueID": "Safty112.MoreMossChopping",
+    "UpdateKeys": ["Nexus:39631"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

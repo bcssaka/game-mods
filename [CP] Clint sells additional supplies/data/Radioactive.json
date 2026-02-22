@@ -1,0 +1,50 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"Radioactive": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Radioactive_body}} %item object 909 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_Radioactive_title}}",
+
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305801101/r 1/d/x Radioactive": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+
+		"sadnumbme.ClintSellsAdditionalSupplies_RadioactiveBar": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Radioactive Bar}}", //11a
+					"ItemId": "910",
+                    "Price": "{{Radioactive_Bar_Price}}",
+					"AvailableStock" : "-1",		
+							
+					},
+		"sadnumbme.ClintSellsAdditionalSupplies_RadioactiveOre": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_RadioactiveOre}}", //11b
+					"ItemId": "909",
+                    "Price": "{{Radioactive_Ore_Price}}",
+					"AvailableStock" : "-1"	
+									
+					}
+
+
+		}
+		}
+	]
+}
+	

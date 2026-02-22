@@ -1,0 +1,41 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"Marble": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Marble_body}} %item object 567 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_Marble_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305801001/r 1/d/x Marble": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+
+		"sadnumbme.ClintSellsAdditionalSupplies_Marble": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Marble}}",
+			        "ItemId": "567",
+                    "Price": "{{Marble_Price}}",
+					"AvailableStock" : "-1",
+			
+		}			
+		}
+	}
+	]
+}
+	

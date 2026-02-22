@@ -1,0 +1,37 @@
+{
+  //CONFIG SECTION HEADINGS
+  "config.section.General.name": "General Options",
+  "config.section.LoreExtra.name": "Extra Options (Lore Friendly Loot Pool only)",
+
+  //CONFIG OPTIONS
+  "config.LootPool.name": "Loot Pool Mode",
+  "config.LootPool.description": "Choose how the loot pool for the Treasure Chest is generated. Gameplay Oriented follows the logic of the vanilla game, expanding the loot pool as the farmer levels up and progresses through the story. Lore Friendly assumes Willy himself is obtaining the treasure, with all available items possible from game start. However, some items are removed from the pool that Willy would never find.",
+  "config.LootPool.values.Gameplay": "Gameplay Oriented",
+  "config.LootPool.values.Lore": "Lore Friendly",
+  "config.TreasurePrices.name": "Prices",
+  "config.TreasurePrices.description": "Choose sale prices for items in the Treasure Chest, relative to the game's default. Bargain prices are 50% off, Standard are the default sale prices, Markup prices have 50% added and Doubled prices are twice the game's default sale price.",
+  "config.TreasurePrices.values.Bargain": "Bargain",
+  "config.TreasurePrices.values.Standard": "Standard",
+  "config.TreasurePrices.values.Markup": "Markup",
+  "config.TreasurePrices.values.Doubled": "Doubled",
+  "config.PanStock.name": "Include Panning Stock",
+  "config.PanStock.description": "Expand the Treasure Chest loot pool after panning has been unlocked. Adds new items that can be obtained through panning, and increases the odds of receiving items that can be found in both fishing treasure chests and panning spots. Applies to both Loot Pool configurations and synchronises with the Distance from Land option for the Lore Friendly Loot Pool.",
+  "config.CompRewards.name": "Competition Rewards",
+  "config.CompRewards.description": "Adds Trout Derby and SquidFest rewards to the Treasure Chest on the day after each festival concludes. Applies to both Loot Pool options. Choose to have this option start the first year, or to be delayed until Year 2.",
+  "config.CompRewards.values.Off": "Off",
+  "config.CompRewards.values.1": "Year 1",
+  "config.CompRewards.values.2": "Year 2",
+  "config.LoreDistance.name": "Distance from Land items",
+  "config.LoreDistance.description": "Include items in the Lore Friendly Loot Pool that normally appear in treasure chests when the fishing line is cast further than 1 tile from land (where Willy normally doesn't fish). These items are in the Gameplay Oriented Loot Pool by default.",
+  "config.GoldEggPerfection.name": "Golden Egg Requires Perfection",
+  "config.GoldEggPerfection.description": "Whether Perfection is required for the Golden Egg to appear with the Lore Friendly Loot Pool selected. It is always locked behind perfection in the Gameplay Oriented Loot Pool.",
+
+  //SHOP DIALOGUES
+  "ShopDialogues.Dialogue0": "That's me treasure chest. I replenish her daily with new gifts o' the sea!",
+  "ShopDialogues.Dialogue1": "I replenish her daily with new gifts o' the sea!",
+  "ShopDialogues.Dialogue2": "For the fisherman, the fun ends when the treasure is found.",
+  "ShopDialogues.Dialogue3": "Good treasures come to those who wait!",
+  "ShopDialogues.Dialogue4": "'Bait the hook, catch the luck' me ol' pappy used to say.",
+  "ShopDialogues.Dialogue5": "Where there's treasure, there be pleasure!",
+  "ShopDialogues.Dialogue6": "Mead is the treasure of the wise man."
+}

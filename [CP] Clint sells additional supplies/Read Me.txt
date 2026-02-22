@@ -1,0 +1,18 @@
+Clint sells additional supplies.
+
+Clint increases what he sells based on friendship and skill levels. You will get a letter with gift each time he adds a new item. Price is configurable.
+
+CharcoalKiln //Clint friendship level 4 & foraging level 2
+CopperBar // Clint friendship level 2
+Crystalarium // Clint friendship level 10 & mining level 9
+Furance // Clint friendship level 4
+GoldBar // Clint friendship level 6 & mining level 7
+Iridium Bar // Clint friendship level 8 & mining level 8
+Iridium Ore // Clint friendship level 8 & mining level 8
+Iron bar // Clint friendship level 4 & mining level 4
+Marble // Clint friendship level 4 & mining level 4 (Added January 8, 2026)
+Lighting Rod // Clint friendship level 6 & foraging level 6
+Radioactive Bar // Clint friendship level 10 & mining level 10
+Radioactive Ore // Clint friendship level 10 & mining level 10
+
+Ability to adjust prices on copper ore, iron ore, gold ore and coal for both year 1 and 2 (Added January 8, 2026)

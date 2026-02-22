@@ -1,0 +1,40 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"Furance": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Furance_body}} %item object (BC)13 1%% [#] {{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_Furance_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800401/r .99/d/x Furance": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+		
+		"sadnumbme.ClintSellsAdditionalSupplies_Furance": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Furance}}", //4
+					"ItemId": "(BC)13",
+                    "Price": "{{Furance_Price}}",
+					"AvailableStock" : "-1",
+		}
+		}
+	}
+	]
+}
+	

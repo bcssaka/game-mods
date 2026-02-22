@@ -1,0 +1,141 @@
+{
+  "Format": "2.0.0",
+
+  // ■■■ CONFIGURATION ■■■
+  "ConfigSchema": {
+    "TextureStyle": {
+      "AllowValues": "Vanilla, Earthy",
+      "Default": "Vanilla",
+      "Description": "Choose the visual style of the machine."
+    },
+    "Recipe_BatteryCount": { "AllowValues": "1, 5, 10, 20", "Default": "5" },
+    "Recipe_DiamondCount": { "AllowValues": "0, 1, 2, 5", "Default": "1" },
+    "Recipe_PrismaticCount": { "AllowValues": "0, 1, 2, 3", "Default": "1" },
+    "Recipe_IronBarCount": { "AllowValues": "1, 5, 10, 20", "Default": "10" },
+    "Recipe_CoalCount": { "AllowValues": "10, 20, 50, 100", "Default": "20" },
+    "Recipe_WoodCount": { "AllowValues": "10, 50, 100", "Default": "50" },
+    "Output_CoalCount": { "AllowValues": "3, 5, 10, 20", "Default": "5" }
+  },
+
+  "Changes": [
+    // ■■■ ASSET ■■■
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Texture",
+      "FromFile": "assets/ECoalifier_{{TextureStyle}}.png"
+    },
+
+    // ■■■ MACHINE ■■■
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "ECoalifier": {
+          "Name": "ECoalifier",
+          "DisplayName": "{{i18n:ECoalifier_Name}}",
+          "Description": "{{i18n:ECoalifier_Description}}",
+          "Price": 500,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "Mods/{{ModId}}/Texture",
+          "SpriteIndex": 0,
+          "ContextTags": [ "machine_input:battery_pack" ]
+        }
+      }
+    },
+
+    // ■■■ RECIPE ■■■
+
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "ECoalifier": "787 {{Recipe_BatteryCount}} 72 {{Recipe_DiamondCount}} 74 {{Recipe_PrismaticCount}} 335 {{Recipe_IronBarCount}} 382 {{Recipe_CoalCount}} 388 {{Recipe_WoodCount}}/Home/ECoalifier/true/null"
+      }
+    },
+
+    // ■■■ MAIL ■■■
+
+{
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        // Uses {{i18n:Mail_Text}} and {{i18n:Mail_Title}}
+        "ECoalifier_UnlockLetter": "{{i18n:Mail_Text}}%item craftingRecipe ECoalifier %%[#]{{i18n:Mail_Title}}"
+      }
+    },
+
+    // ■■■ TRIGGER ACTION ■■■
+
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ECoalifier_SendMail": {
+          "Id": "ECoalifier_SendMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_BASE_MINING_LEVEL Current 5",
+          "Actions": [ "AddMail Current ECoalifier_UnlockLetter now" ]
+        }
+      }
+    },
+
+    // ■■■ MACHINE LOGIC ■■■
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)ECoalifier": {
+          "ShowNextIndexWhileWorking": true,
+          "WobbleWhileWorking": true,
+          "InteractSound": "clank",
+
+          "OutputRules": [
+            {
+              "Id": "BatteryToCoal",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)787",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O)382",
+                  "MinStack": "{{Output_CoalCount}}",
+                  "MaxStack": "{{Output_CoalCount}}"
+                }
+              ],
+              "MinutesUntilReady": 60
+            }
+          ],
+
+          "WorkingEffects": [
+            {
+              "Condition": null,
+              "Interval": 120,
+              "Sounds": [ { "Id": "furnace", "Delay": 0 } ],
+              "TemporarySprites": [
+                {
+                  "Texture": "TileSheets\\animations",
+                  "SourceRect": { "X": 0, "Y": 1728, "Width": 64, "Height": 64 },
+                  "Interval": 50.0,
+                  "Frames": 4,
+                  "Loops": 10,
+                  "PositionOffset": "-4, -32",
+                  "Scale": 0.25,
+                  "AlphaFade": 0.005,
+                  "Color": "200 220 255"
+                }
+              ]
+            }
+          ],
+          "WorkingEffectChance": 0.15
+        }
+      }
+    }
+  ]
+}

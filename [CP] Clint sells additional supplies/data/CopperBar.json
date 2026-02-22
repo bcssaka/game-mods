@@ -1,0 +1,40 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"CopperBar": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_CopperBar_body}} %item object 334 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_CopperBar_title}}",
+
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800201/r 1/d/x CopperBar": "null",
+
+				},
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+		
+		"sadnumbme.ClintSellsAdditionalSupplies_CopperBar": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_CopperBar}}", //2
+					"ItemId": "334",
+					"Price": "{{Copper_Bar_Price}}",					
+					"AvailableStock" : "-1",
+		
+		}
+	}
+	}
+	]
+}
+	

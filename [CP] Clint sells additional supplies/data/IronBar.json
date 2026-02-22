@@ -1,0 +1,41 @@
+{
+"Changes":
+	[
+	{
+	"Action": "EditData",
+    "Target": "data/mail",
+	"Entries": {
+	"IronBar": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_Clint_IronBar_body}} %item object 335 1%% [#] {{i18n: sadnumbme.ClintSellsAdditionalSupplies_Clint_IronBar_title}}",
+	
+				},
+				},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+
+	"Entries": { //ID# Nexus ID Action xx Letter xx
+		"305800901/r 1/d/x IronBar": "null",
+	
+				},
+	
+	},
+	{
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Blacksmith","Items"], 
+ 		
+		"Entries": {
+
+		"sadnumbme.ClintSellsAdditionalSupplies_IronBar": {
+                    "Id": "{{i18n:sadnumbme.ClintSellsAdditionalSupplies_IronBar}}", //9
+			        "ItemId": "335",
+                    "Price": "{{Iron_Bar_Price}}",
+					"AvailableStock" : "-1",
+			
+		}			
+		}
+	}
+	]
+}
+	
