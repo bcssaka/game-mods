@@ -1,0 +1,11 @@
+{
+  "hud.found": "附近发现了一个淘金点！",
+
+  "config.section.main": "淘金",
+
+  "config.extraTreasure.name": "额外添加宝物",
+  "config.extraTreasure.tooltip": "启用后，淘金会在普通战利品之外额外掉落一份原版宝物。",
+
+  "config.showIndicator.name": "显示 HUD 提示",
+  "config.showIndicator.tooltip": "启用后，手持淘金盘时附近有淘金点会显示 HUD 消息。"
+}

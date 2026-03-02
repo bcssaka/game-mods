@@ -1,0 +1,11 @@
+{
+  "hud.found": "近くに砂金採りポイントを見つけた！",
+
+  "config.section.main": "パンニング",
+
+  "config.extraTreasure.name": "追加のお宝を入手",
+  "config.extraTreasure.tooltip": "有効にすると、通常の戦利品に加えてバニラのお宝をもう1個落とします。",
+
+  "config.showIndicator.name": "HUD通知を表示",
+  "config.showIndicator.tooltip": "有効にすると、パンを持っているとき近くに砂金採りポイントがあるとHUDメッセージを表示します。"
+}

@@ -1,0 +1,11 @@
+{
+  "hud.found": "Encontrou um ponto de garimpo por perto!",
+
+  "config.section.main": "Garimpo",
+
+  "config.extraTreasure.name": "Adicionar tesouro extra",
+  "config.extraTreasure.tooltip": "Se ativado, peneirar derruba uma cópia extra do tesouro original além do saque normal.",
+
+  "config.showIndicator.name": "Mostrar indicador no HUD",
+  "config.showIndicator.tooltip": "Se ativado, mostra uma mensagem no HUD quando houver um ponto de garimpo por perto enquanto você segura a panela."
+}

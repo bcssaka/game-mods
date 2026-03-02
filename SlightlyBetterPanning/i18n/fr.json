@@ -1,0 +1,11 @@
+{
+  "hud.found": "Un point d'orpaillage est tout proche !",
+
+  "config.section.main": "Orpaillage",
+
+  "config.extraTreasure.name": "Ajouter un trésor supplémentaire",
+  "config.extraTreasure.tooltip": "Si activé, l'orpaillage ajoute une copie supplémentaire du trésor vanilla en plus du butin normal.",
+
+  "config.showIndicator.name": "Afficher l'indicateur HUD",
+  "config.showIndicator.tooltip": "Si activé, affiche un message HUD lorsqu'un point d'orpaillage est proche pendant que vous tenez une batée."
+}

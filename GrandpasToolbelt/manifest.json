@@ -1,0 +1,16 @@
+{
+  "Name": "Grandpa's Toolbelt",
+  "Author": "ThatBritishMo & imnotashrimp83",
+  "Version": "2.0.7",
+  "Description": "Adds a second, independent toolbar above the standard inventory for extra storage and tool swapping.",
+  "UniqueID": "ThatBritishMo.GrandpasToolbelt",
+  "EntryDll": "GrandpasToolbelt.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:42217" ],
+  "Dependencies": [
+    {
+        "UniqueID": "spacechase0.GenericModConfigMenu",
+        "IsRequired": false
+    }
+  ]
+}

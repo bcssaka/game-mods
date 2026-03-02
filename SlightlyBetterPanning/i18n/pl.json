@@ -1,0 +1,11 @@
+{
+  "hud.found": "W pobliżu znaleziono miejsce do płukania!",
+
+  "config.section.main": "Płukanie",
+
+  "config.extraTreasure.name": "Dodaj dodatkowy skarb",
+  "config.extraTreasure.tooltip": "Jeśli włączone, płukanie upuszcza dodatkową kopię podstawowego skarbu oprócz zwykłych łupów.",
+
+  "config.showIndicator.name": "Pokaż wskaźnik HUD",
+  "config.showIndicator.tooltip": "Jeśli włączone, podczas trzymania patelni pojawi się komunikat HUD, gdy w pobliżu jest miejsce do płukania."
+}

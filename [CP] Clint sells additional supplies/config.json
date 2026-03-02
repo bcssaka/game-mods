@@ -1,0 +1,22 @@
+{
+  "Charcoal_Kiln_Price": "3000",
+  "Copper_Bar_Price": "800",
+  "Crystalarium_Price": "25000",
+  "Furance_Price": "3000",
+  "Gold_Bar_Price": "3900",
+  "Iridium_Bar_Price": "5700",
+  "Iridium_Ore_Price": "1000",
+  "Iron_Bar_Price": "1400",
+  "Lighting_Rod_Price": "2500",
+  "Marble_Price": "250",
+  "Radioactive_Bar_Price": "9000",
+  "Radioactive_Ore_Price": "1500",
+  "Copper_Ore_Year_One_Price": "75",
+  "Copper_Ore_Year_Two_Price": "150",
+  "Iron_Ore_Year_One_Price": "150",
+  "Iron_Ore_Year_Two_Price": "250",
+  "Gold_Ore_Year_One_Price": "400",
+  "Gold_Ore_Year_Two_Price": "750",
+  "Coal_Year_One_Price": "150",
+  "Coal_Year_Two_Price": "250"
+}

@@ -1,0 +1,11 @@
+{
+  "hud.found": "근처에서 냄비질 지점을 발견했어요!",
+
+  "config.section.main": "냄비질",
+
+  "config.extraTreasure.name": "추가 보물 추가",
+  "config.extraTreasure.tooltip": "활성화하면 기본 보물을 일반 전리품과 별도로 하나 더 떨어뜨립니다.",
+
+  "config.showIndicator.name": "HUD 알림 표시",
+  "config.showIndicator.tooltip": "활성화하면 냄비를 들고 있을 때 근처에 채취 지점이 있으면 HUD 메시지를 표시합니다."
+}

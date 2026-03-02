@@ -1,6 +1,6 @@
 {
   "Distance": 1,
-  "TractorSpeed": -2,
+  "TractorSpeed": 3,
   "SoundEffects": "Tractor",
   "ToolUseSoundLimit": "Default",
   "SoundEffectsVolume": 75,
@@ -57,7 +57,7 @@
       "HarvestGrass": false
     },
     "MeleeSword": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "ClearDeadCrops": true,
       "BreakMineContainers": true,
       "HarvestGrass": false

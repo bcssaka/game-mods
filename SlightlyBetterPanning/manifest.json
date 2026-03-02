@@ -1,0 +1,10 @@
+{
+  "Name": "Slightly Better Panning",
+  "Author": "ZeroXPatch",
+  "Version": "1.0.0",
+  "Description": "Shows a simple HUD hint when a pan spot is nearby and optionally adds one extra vanilla treasure when panning.",
+  "UniqueID": "ZeroXPatch.SlightlyBetterPanning",
+  "EntryDll": "SlightlyBetterPanning.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

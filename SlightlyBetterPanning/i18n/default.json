@@ -1,0 +1,11 @@
+{
+  "hud.found": "Found a pan spot nearby!",
+
+  "config.section.main": "Panning",
+
+  "config.extraTreasure.name": "Add extra treasure",
+  "config.extraTreasure.tooltip": "If enabled, panning drops one extra copy of the vanilla treasure on top of the normal loot.",
+
+  "config.showIndicator.name": "Show HUD indicator",
+  "config.showIndicator.tooltip": "If enabled, shows a HUD message when a pan spot is nearby while holding a pan."
+}

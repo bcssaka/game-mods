@@ -3,7 +3,7 @@
   "MenuKey": "Tab",
   "MinimapToggleKey": "OemPipe, OemTilde",
   "TooltipKey": "Space",
-  "ShowMinimap": true,
+  "ShowMinimap": false,
   "LockMinimapPosition": false,
   "MinimapX": 12,
   "MinimapY": 12,

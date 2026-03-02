@@ -1,0 +1,11 @@
+{
+  "hud.found": "In der Nähe wurde eine Pfannstelle gefunden!",
+
+  "config.section.main": "Pfannen",
+
+  "config.extraTreasure.name": "Zusätzlichen Schatz hinzufügen",
+  "config.extraTreasure.tooltip": "Wenn aktiviert, lässt Panning eine zusätzliche Kopie des Vanilla-Schatzes zusätzlich zur normalen Beute fallen.",
+
+  "config.showIndicator.name": "HUD-Anzeige zeigen",
+  "config.showIndicator.tooltip": "Wenn aktiviert, wird beim Halten einer Pfanne eine HUD-Meldung angezeigt, wenn ein Pfannenplatz in der Nähe ist."
+}

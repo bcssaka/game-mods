@@ -1,0 +1,11 @@
+{
+  "hud.found": "¡Hay un punto de bateo cerca!",
+
+  "config.section.main": "Bateo",
+
+  "config.extraTreasure.name": "Agregar tesoro extra",
+  "config.extraTreasure.tooltip": "Si está activado, batear deja una copia adicional del tesoro original además del botín normal.",
+
+  "config.showIndicator.name": "Mostrar indicador en HUD",
+  "config.showIndicator.tooltip": "Si está activado, al sostener una sartén se mostrará un mensaje en la interfaz cuando haya un punto de bateo cerca."
+}

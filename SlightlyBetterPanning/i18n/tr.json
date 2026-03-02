@@ -1,0 +1,11 @@
+{
+  "hud.found": "Yakında bir tava noktası bulundu!",
+
+  "config.section.main": "Tava Eleme",
+
+  "config.extraTreasure.name": "Ekstra hazine ekle",
+  "config.extraTreasure.tooltip": "Etkinse, tava elemesi normal ganimete ek olarak orijinal hazinenin ekstra bir kopyasını düşürür.",
+
+  "config.showIndicator.name": "HUD göstergesini göster",
+  "config.showIndicator.tooltip": "Etkinse, tavayı tutarken yakında bir tava noktası olduğunda HUD'da bir mesaj gösterir."
+}

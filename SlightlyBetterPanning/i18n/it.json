@@ -1,0 +1,11 @@
+{
+  "hud.found": "C'è un punto per setacciare qui vicino!",
+
+  "config.section.main": "Setacciamento",
+
+  "config.extraTreasure.name": "Aggiungi un tesoro extra",
+  "config.extraTreasure.tooltip": "Se abilitato, il setacciamento rilascia una copia extra del tesoro vanilla oltre al bottino normale.",
+
+  "config.showIndicator.name": "Mostra indicatore HUD",
+  "config.showIndicator.tooltip": "Se abilitato, mostra un messaggio HUD quando c'è un punto di setacciamento vicino mentre hai il setaccio in mano."
+}

@@ -6,7 +6,8 @@
   },
   "ConnectorNames": [
     "(O)331",
-    "(O)401"
+    "(O)401",
+    "(O)405"
   ],
   "JunimoHutBehaviorForGems": "AutoDetect",
   "JunimoHutBehaviorForFertilizer": "AutoDetect",
@@ -15,6 +16,15 @@
   "WarnForMissingBridgeMod": true,
   "ChestsEnabledByDefault": true,
   "ChestOverrides": {},
-  "MachineOverrides": {},
+  "MachineOverrides": {
+    "MiniShippingBin": {
+      "Priority": -2,
+      "Enabled": false
+    },
+    "ShippingBin": {
+      "Priority": -1,
+      "Enabled": false
+    }
+  },
   "MinMinutesForFairyDust": 20
 }
